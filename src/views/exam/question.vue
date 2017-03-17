@@ -1,0 +1,52 @@
+<template>
+  <div id="app">
+    <img class="logo" src="https://raw.githubusercontent.com/iview/iview/master/assets/logo.png">
+
+    <p>
+      考题页面. 目前分为三类考题:<br/>
+      <a>选择题</a><br/>
+      <a>填空题</a><br/>
+      <a>命令题</a>
+    </p>
+
+    <p>
+      Go through iView
+      <a href="https://www.iviewui.com/" target="_blank">documentation</a>.
+    </p>
+  </div>
+</template>
+
+<script type="text/ecmascript-6">
+  export default {};
+</script>
+
+<style>
+  html {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #app {
+    color: #2c3e50;
+    margin-top: -100px;
+    max-width: 600px;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  #app a {
+    color: #42b983;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px
+  }
+</style>
