@@ -39,3 +39,6 @@ jspm_packages
 .node_repl_history
 
 .idea
+
+*compiled.js
+*.js.map
