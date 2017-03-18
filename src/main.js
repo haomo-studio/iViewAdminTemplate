@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from 'components/app.vue';
-import Routers from './router';
+import Routers from './routers/router';
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 import VueI18n from 'vue-i18n';
