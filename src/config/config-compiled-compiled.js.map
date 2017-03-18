@@ -1,1 +1,0 @@
-{"version":3,"sources":["config-compiled.js"],"names":[],"mappings":";;;;;;AAAA;;;;;;AAEA,IAAI,SAAS;AACT;AADS,CAAb;kBAGe,M;;AAEf","file":"config-compiled-compiled.js","sourcesContent":["import Env from './env';\n\nlet config = {\n    env: Env\n};\nexport default config;\n\n//# sourceMappingURL=config-compiled.js.map"]}

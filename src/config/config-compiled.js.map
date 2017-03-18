@@ -1,1 +1,0 @@
-{"version":3,"sources":["config.js"],"names":[],"mappings":";;;;;;AAAA;;;;;;AAEA,IAAI,SAAS;AACT;AADS,CAAb;kBAGe,M","file":"config-compiled.js","sourcesContent":["import Env from './env';\n\nlet config = {\n    env: Env\n};\nexport default config;"]}
