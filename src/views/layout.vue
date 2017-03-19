@@ -37,19 +37,25 @@
         border-radius: 3px;
         margin: 15px auto;
     }
+
+    .layout h2 {
+        color: white;
+    }
 </style>
 <template>
     <div class="layout">
         <Row type="flex">
             <i-col span="5" class="layout-menu-left">
                 <Menu active-key="1-2" theme="dark" width="auto" :open-keys="['1']">
-                    <div class="layout-logo-left"></div>
+                    <div class="layout-logo-left">
+                        <h2>北京毫末科技有限公司</h2>
+                    </div>
                     <Submenu key="1">
                         <template slot="title">
                             <Icon type="ios-navigate"></Icon>
                             UI
                         </template>
-                        <Menu-item key="1-1">表单</Menu-item>
+                        <Menu-item key="1-1" v-link="{path: '/ui/form'}">表单</Menu-item>
                         <Menu-item key="1-2">图标</Menu-item>
                         <Menu-item key="1-3">文字</Menu-item>
                         <Menu-item key="1-4">按钮</Menu-item>
@@ -95,7 +101,8 @@
                     </Breadcrumb>
                 </div>
                 <div class="layout-content">
-                    <div class="layout-content-main">内容区域</div>
+                    <!--<div class="layout-content-main">内容区域</div>-->
+                    <router-view></router-view>
                 </div>
                 <div class="layout-copy">
                     2011-2017 &copy; 北京毫末科技有限公司
