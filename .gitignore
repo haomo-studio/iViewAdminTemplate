@@ -42,3 +42,5 @@ jspm_packages
 
 *compiled.js
 *.js.map
+
+dist
