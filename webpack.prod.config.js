@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const fs = require('fs');
 
-config.output.publicPath = 'http://skillee.haomo-studio.com/dist/'; // 资源路径,根据需要可改为cdn地址
+config.output.publicPath = '/dist/'; // 资源路径,根据需要可改为cdn地址
 config.output.filename = '[name].[hash].js'; // 带hash值的入口js名称
 config.output.chunkFilename = '[name].[hash].chunk.js'; // 带hash值的路由js名称
 
