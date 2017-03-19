@@ -1,7 +1,7 @@
 const routers = {
-    '/index': {
+    '/': {
         component(resolve) {
-            require(['../views/index.vue'], resolve);
+            require(['../views/layout.vue'], resolve);
         }
     }
 };
