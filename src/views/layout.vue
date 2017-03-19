@@ -47,27 +47,41 @@
                     <Submenu key="1">
                         <template slot="title">
                             <Icon type="ios-navigate"></Icon>
-                            导航一
+                            UI
                         </template>
-                        <Menu-item key="1-1">选项 1</Menu-item>
-                        <Menu-item key="1-2">选项 2</Menu-item>
-                        <Menu-item key="1-3">选项 3</Menu-item>
+                        <Menu-item key="1-1">表单</Menu-item>
+                        <Menu-item key="1-2">图标</Menu-item>
+                        <Menu-item key="1-3">文字</Menu-item>
+                        <Menu-item key="1-4">按钮</Menu-item>
+                        <Menu-item key="1-5">布局</Menu-item>
+                        <Menu-item key="1-6">主题</Menu-item>
                     </Submenu>
                     <Submenu key="2">
                         <template slot="title">
                             <Icon type="ios-keypad"></Icon>
-                            导航二
+                            组件
                         </template>
-                        <Menu-item key="2-1">选项 1</Menu-item>
-                        <Menu-item key="2-2">选项 2</Menu-item>
+                        <Menu-item key="2-1">卡片</Menu-item>
+                        <Menu-item key="2-2">图表</Menu-item>
+                        <Menu-item key="2-3">地图</Menu-item>
+                        <Menu-item key="2-4">表格</Menu-item>
                     </Submenu>
                     <Submenu key="3">
                         <template slot="title">
                             <Icon type="ios-analytics"></Icon>
-                            导航三
+                            页面
                         </template>
-                        <Menu-item key="3-1">选项 1</Menu-item>
-                        <Menu-item key="3-2">选项 2</Menu-item>
+                        <Menu-item key="3-1">用户认证页面</Menu-item>
+                        <Menu-item key="3-2">错误页面</Menu-item>
+                        <Menu-item key="3-2">个人中心</Menu-item>
+                    </Submenu>
+                    <Submenu key="4">
+                        <template slot="title">
+                            <Icon type="ios-analytics"></Icon>
+                            应用
+                        </template>
+                        <Menu-item key="4-1">办公系统</Menu-item>
+                        <Menu-item key="4-2">电商</Menu-item>
                     </Submenu>
                 </Menu>
             </i-col>
