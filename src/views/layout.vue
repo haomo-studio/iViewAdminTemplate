@@ -84,7 +84,7 @@
                     <div class="layout-content-main">内容区域</div>
                 </div>
                 <div class="layout-copy">
-                    2011-2016 &copy; TalkingData
+                    2011-2017 &copy; 北京毫末科技有限公司
                 </div>
             </i-col>
         </Row>
