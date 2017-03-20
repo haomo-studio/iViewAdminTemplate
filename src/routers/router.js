@@ -42,6 +42,78 @@ const routers = {
             }
           }
         }
+      },
+
+      '/module': {
+        component: {
+          template: '<router-view></router-view>'
+        },
+
+        subRoutes: {
+          'cards': {
+            component(resolve){
+              require(['../views/module/cards.vue'], resolve)
+            }
+          },
+          'chart': {
+            component(resolve){
+              require(['../views/module/chart.vue'], resolve)
+            }
+          },
+          'map': {
+            component(resolve){
+              require(['../views/module/map.vue'], resolve)
+            }
+          },
+          'table': {
+            component(resolve){
+              require(['../views/module/table.vue'], resolve)
+            }
+          }
+        }
+      },
+
+      '/page': {
+        component: {
+          template: '<router-view></router-view>'
+        },
+
+        subRoutes: {
+          'userAuthentification': {
+            component(resolve){
+              require(['../views/page/userAuthentification.vue'], resolve)
+            }
+          },
+          'errPage': {
+            component(resolve){
+              require(['../views/page/errPage.vue'], resolve)
+            }
+          },
+          'userCenter': {
+            component(resolve){
+              require(['../views/page/userCenter.vue'], resolve)
+            }
+          }
+        }
+      },
+
+      '/applications': {
+        component: {
+          template: '<router-view></router-view>'
+        },
+
+        subRoutes: {
+          'oa': {
+            component(resolve){
+              require(['../views/applications/oa.vue'], resolve)
+            }
+          },
+          'eBusiness': {
+            component(resolve){
+              require(['../views/applications/eBusiness.vue'], resolve)
+            }
+          }
+        }
       }
     }
   }

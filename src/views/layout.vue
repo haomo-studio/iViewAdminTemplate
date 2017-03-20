@@ -67,27 +67,27 @@
                             <Icon type="ios-keypad"></Icon>
                             组件
                         </template>
-                        <Menu-item key="2-1">卡片</Menu-item>
-                        <Menu-item key="2-2">图表</Menu-item>
-                        <Menu-item key="2-3">地图</Menu-item>
-                        <Menu-item key="2-4">表格</Menu-item>
+                        <Menu-item key="2-1" v-link="{path: '/module/cards'}">卡片</Menu-item>
+                        <Menu-item key="2-2" v-link="{path: '/module/chart'}">图表</Menu-item>
+                        <Menu-item key="2-3" v-link="{path: '/module/map'}">地图</Menu-item>
+                        <Menu-item key="2-4" v-link="{path: '/module/table'}">表格</Menu-item>
                     </Submenu>
                     <Submenu key="3">
                         <template slot="title">
                             <Icon type="ios-analytics"></Icon>
                             页面
                         </template>
-                        <Menu-item key="3-1">用户认证页面</Menu-item>
-                        <Menu-item key="3-2">错误页面</Menu-item>
-                        <Menu-item key="3-2">个人中心</Menu-item>
+                        <Menu-item key="3-1" v-link="{path: '/page/userAuthentification'}">用户认证页面</Menu-item>
+                        <Menu-item key="3-2" v-link="{path: '/page/errPage'}">错误页面</Menu-item>
+                        <Menu-item key="3-2" v-link="{path: '/page/userCenter'}">个人中心</Menu-item>
                     </Submenu>
                     <Submenu key="4">
                         <template slot="title">
                             <Icon type="ios-analytics"></Icon>
                             应用
                         </template>
-                        <Menu-item key="4-1">办公系统</Menu-item>
-                        <Menu-item key="4-2">电商</Menu-item>
+                        <Menu-item key="4-1" v-link="{path: '/applications/oa'}">办公系统</Menu-item>
+                        <Menu-item key="4-2" v-link="{path: '/applications/eBusiness'}">电商</Menu-item>
                     </Submenu>
                 </Menu>
             </i-col>
