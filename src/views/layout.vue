@@ -56,11 +56,11 @@
                             UI
                         </template>
                         <Menu-item key="1-1" v-link="{path: '/ui/form'}">表单</Menu-item>
-                        <Menu-item key="1-2">图标</Menu-item>
-                        <Menu-item key="1-3">文字</Menu-item>
-                        <Menu-item key="1-4">按钮</Menu-item>
-                        <Menu-item key="1-5">布局</Menu-item>
-                        <Menu-item key="1-6">主题</Menu-item>
+                        <Menu-item key="1-2" v-link="{path: '/ui/icons'}">图标</Menu-item>
+                        <Menu-item key="1-3" v-link="{path: '/ui/words'}">文字</Menu-item>
+                        <Menu-item key="1-4" v-link="{path: '/ui/buttons'}">按钮</Menu-item>
+                        <Menu-item key="1-5" v-link="{path: '/ui/layout'}">布局</Menu-item>
+                        <Menu-item key="1-6" v-link="{path: '/ui/themes'}">主题</Menu-item>
                     </Submenu>
                     <Submenu key="2">
                         <template slot="title">
