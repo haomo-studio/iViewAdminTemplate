@@ -1,5 +1,5 @@
 # iViewAdminTemplate
-#### 作者: 毫末科技
+#### 作者: [毫末科技](http://www.haomo-studio.com)
 #### 邮箱: hxg@haomo-studio.com
 #### 版本: v0.1
 
