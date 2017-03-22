@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
     // 入口
@@ -57,6 +58,6 @@ module.exports = {
         }
     },
     plugins: [
-
+        new OpenBrowserPlugin({ url: 'http://localhost:8083' })
     ]
 };
