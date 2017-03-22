@@ -58,6 +58,6 @@ module.exports = {
         }
     },
     plugins: [
-        new OpenBrowserPlugin({ url: 'http://localhost:8083' })
+        new OpenBrowserPlugin({ url: 'http://localhost:8080' })
     ]
 };
