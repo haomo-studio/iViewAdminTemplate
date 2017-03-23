@@ -1867,364 +1867,1069 @@
         </div>
         <div class="icons-item">
             <Icon type="ios-volume-high"></Icon>
-            <p></p>
+            <p>ios-volume-high</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-volume-low"></Icon>
-            <p></p>
+            <p>ios-volume-low</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-play"></Icon>
-            <p></p>
+            <p>ios-play</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-play-outline"></Icon>
-            <p></p>
+            <p>ios-play-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-pause"></Icon>
-            <p></p>
+            <p>ios-pause</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-pause-outline"></Icon>
-            <p></p>
+            <p>ios-pause-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-recording"></Icon>
-            <p></p>
+            <p>ios-recording</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-recording-outline"></Icon>
-            <p></p>
+            <p>ios-recording-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-fastforward"></Icon>
-            <p></p>
+            <p>ios-fastforward</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-fastforward-outline"></Icon>
-            <p></p>
+            <p>ios-fastforward-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-rewind"></Icon>
-            <p></p>
+            <p>ios-rewind</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-rewind-outline"></Icon>
-            <p></p>
+            <p>ios-rewind-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-skipbackward"></Icon>
-            <p></p>
+            <p>ios-skipbackward</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-skipbackward-outline"></Icon>
-            <p></p>
+            <p>ios-skipbackward-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-skipforward"></Icon>
-            <p></p>
+            <p>ios-skopforward</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-skipforward-outline"></Icon>
-            <p></p>
+            <p>ios-skipforward-outline</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-shuffle-strong"></Icon>
-            <p></p>
+            <p>ios-shuffle-strong</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-shuffle"></Icon>
-            <p></p>
+            <p>ios-shuffle</p>
         </div>
         <div class="icons-item">
             <Icon type="ios-videocam"></Icon>
-            <p></p>
+            <p>ios-videocam</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-videocam-outline"></Icon>
+            <p>ios-videocam-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-film"></Icon>
+            <p>ios-film</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-film-outline"></Icon>
+            <p>ios-film-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-flask"></Icon>
+            <p>ios-flask</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-flask-outline"></Icon>
+            <p>ios-flask-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-lightbulb"></Icon>
+            <p>ios-lightbulb</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-lightbulb-outline"></Icon>
+            <p>ios-lightbulb-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-wineglass"></Icon>
+            <p>ios-wineglass</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-wineglass-outline"></Icon>
+            <p>ios-wineglass-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-pint"></Icon>
+            <p>ios-pint</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-pint-outline"></Icon>
+            <p>ios-pint-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-nutrition"></Icon>
+            <p>ios-nutrition</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-nutrition-outline"></Icon>
+            <p>ios-nutrition-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-flower"></Icon>
+            <p>ios-flower</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-flower-outline"></Icon>
+            <p>ios-flower-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-rose"></Icon>
+            <p>ios-rose</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-rose-outline"></Icon>
+            <p>ios-rose-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-paw"></Icon>
+            <p>ios-paw</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-paw-outline"></Icon>
+            <p>ios-paw-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-flame"></Icon>
+            <p>ios-flame</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-flame-outline"></Icon>
+            <p>ios-flame-outline</p>
         </div>
         <div class="icons-item">
-
+            <Icon type="ios-sunny"></Icon>
             <p></p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-sunny-outline"></Icon>
+            <p>ios-sunny-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-partlysunny"></Icon>
+            <p>ios-partlysunny</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-partlysunny-outline"></Icon>
+            <p>ios-partlysunny-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-cloudy"></Icon>
+            <p>ios-cloudy</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-cloudy-outline"></Icon>
+            <p>ios-cloudy-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-rainy"></Icon>
+            <p>ios-rainy</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-rainy-outline"></Icon>
+            <p>ios-rainy-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-thunderstorm"></Icon>
+            <p>ios-thunderstorm</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-thunderstorm-outline"></Icon>
+            <p>ios-thunderstorm-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-snowy"></Icon>
+            <p>ios-snowy</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-moon"></Icon>
+            <p>ios-moon</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-moon-outline"></Icon>
+            <p>ios-moon-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-cloudy-night"></Icon>
+            <p>ios-cloudy-night</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="ios-cloudy-night-outline"></Icon>
+            <p>ios-cloudy-night-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-up"></Icon>
+            <p>android-arrow-up</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-forward"></Icon>
+            <p>android-arrow-forward</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-down"></Icon>
+            <p>android-arrow-down</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-back"></Icon>
+            <p>android-arrow-back</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropup"></Icon>
+            <p>android-arrow-dropup</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropup-circle"></Icon>
+            <p>android-arrow-dropup-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropright"></Icon>
+            <p>android-arrow-dropright</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropright-circle"></Icon>
+            <p>android-arrpw-dropright-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropdown"></Icon>
+            <p>android-arrow-dropdown</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropdown-circle"></Icon>
+            <p>android-arrow-dropdown-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropleft"></Icon>
+            <p>android-arrow-dropleft</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-arrow-dropleft-circle"></Icon>
+            <p>android-arrow-dropleft-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-add"></Icon>
+            <p>android-add</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-add-circle"></Icon>
+            <p>android-add-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-remove"></Icon>
+            <p>android-remove</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-remove-circle"></Icon>
+            <p>android-remove-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-close"></Icon>
+            <p>android-close</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-cancel"></Icon>
+            <p>android-cancel</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-radio-button-off"></Icon>
+            <p>android-radio-button-off</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-radio-button-on"></Icon>
+            <p>android-radio-button-on</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-checkmark-circle"></Icon>
+            <p>android-checkmark-circle</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-checkbox-outline-blank"></Icon>
+            <p>android-checkbox-outline-blank</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-checkbox-outline"></Icon>
+            <p>android-checkbox-outline</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-checkbox-blank"></Icon>
+            <p>android-checkbox-blank</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-checkbox"></Icon>
+            <p>android-checkbox</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-done"></Icon>
+            <p>android-done</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-done-all"></Icon>
+            <p>android-done-all</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-menu"></Icon>
+            <p>android-menu</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-more-horizontal"></Icon>
+            <p>android-more-horizontal</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-more-vertical"></Icon>
+            <p>android-more-vertical</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-refresh"></Icon>
+            <p>android-refresh</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-sync"></Icon>
+            <p>android-sync</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-wifi"></Icon>
+            <p>android-wifi</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-call"></Icon>
+            <p>android-call</p>
         </div>
         <div class="icons-item">
-
-            <p></p>
+            <Icon type="android-apps"></Icon>
+            <p>android-apps</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-settings"></Icon>
+            <p>android-settings</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-options"></Icon>
+            <p>android-options</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-funnel"></Icon>
+            <p>android-funnel</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-search"></Icon>
+            <p>android-search</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-home"></Icon>
+            <p>android-home</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-cloud-outline"></Icon>
+            <p>android-cloud-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-cloud"></Icon>
+            <p>android-cloud</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-download"></Icon>
+            <p>android-download</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-upload"></Icon>
+            <p>android-upload</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-cloud-done"></Icon>
+            <p>android-cloud-done</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-cloud-circle"></Icon>
+            <p>android-cloud-circle</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-favorite-outline"></Icon>
+            <p>android-favorite-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-favorite"></Icon>
+            <p>android-favorite</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-star-outline"></Icon>
+            <p>android-star-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-star-half"></Icon>
+            <p>android-star-half</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-star"></Icon>
+            <p>android-star</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-calendar"></Icon>
+            <p>android-calendar</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-alarm-clock"></Icon>
+            <p>android-alarm-clock</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-time"></Icon>
+            <p>android-time</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-stopwatch"></Icon>
+            <p>android-stopwatch</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-watch"></Icon>
+            <p>android-watch</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-locate"></Icon>
+            <p>android-locate</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-navigate"></Icon>
+            <p>android-navigate</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-pin"></Icon>
+            <p>android-pin</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-compass"></Icon>
+            <p>android-compass</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-map"></Icon>
+            <p>android-map</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-walk"></Icon>
+            <p>android-walk</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-bicycle"></Icon>
+            <p>android-bicycle</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-car"></Icon>
+            <p>android-car</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-bus"></Icon>
+            <p>android-bus</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-subway"></Icon>
+            <p>android-subway</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-train"></Icon>
+            <p>android-train</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-boat"></Icon>
+            <p>android-boat</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-plane"></Icon>
+            <p>android-plane</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-restaurant"></Icon>
+            <p>android-restaurant</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-bar"></Icon>
+            <p>android-bar</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-cart"></Icon>
+            <p>android-cart</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-camera"></Icon>
+            <p>android-camera</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-image"></Icon>
+            <p>android-image</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-film"></Icon>
+            <p>android-film</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-color-palette"></Icon>
+            <p>android-color-palette</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-create"></Icon>
+            <p>android-create</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-mail"></Icon>
+            <p>android-mail</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-drafts"></Icon>
+            <p>android-drafts</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-send"></Icon>
+            <p>android-send</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-archive"></Icon>
+            <p>android-archive</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-delete"></Icon>
+            <p>android-delete</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-attach"></Icon>
+            <p>android-attach</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-share"></Icon>
+            <p>android-share</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-share-alt"></Icon>
+            <p>android-share-alt</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-bookmark"></Icon>
+            <p>android-bookmark</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-document"></Icon>
+            <p>android-document</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-clipboard"></Icon>
+            <p>android-clipboard</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-list"></Icon>
+            <p>android-list</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-folder-open"></Icon>
+            <p>android-folder-open</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-folder"></Icon>
+            <p>android-folder</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-print"></Icon>
+            <p>android-print</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-open"></Icon>
+            <p>android-open</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-exit"></Icon>
+            <p>android-exit</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-contract"></Icon>
+            <p>android-contract</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-expand"></Icon>
+            <p>android-expand</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-globe"></Icon>
+            <p>android-globe</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-chat"></Icon>
+            <p>android-chat</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-textsms"></Icon>
+            <p>android-textsms</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-hangout"></Icon>
+            <p>android-hangout</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-happy"></Icon>
+            <p>android-happy</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-sad"></Icon>
+            <p>android-sad</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-person"></Icon>
+            <p>android-person</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-people"></Icon>
+            <p>android-people</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-person-add"></Icon>
+            <p>android-person-add</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-contact"></Icon>
+            <p>android-contact</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-contacts"></Icon>
+            <p>android-contacts</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-playstore"></Icon>
+            <p>android-playstore</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-lock"></Icon>
+            <p>android-lock</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-unlock"></Icon>
+            <p>android-unlock</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-microphone"></Icon>
+            <p>android-microphone</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-microphone-off"></Icon>
+            <p>android-micrphone-off</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-notifications-none"></Icon>
+            <p>android-notifications-none</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-notifications"></Icon>
+            <p>android-notifications</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-notifications-off"></Icon>
+            <p>android-notifications-off</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-volume-mute"></Icon>
+            <p>android-volume-mute</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-volume-down"></Icon>
+            <p>android-volume-down</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-volume-up"></Icon>
+            <p>android-volume-up</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-volume-off"></Icon>
+            <p>android-volume-off</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-hand"></Icon>
+            <p>android-hand</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-desktop"></Icon>
+            <p>android-desktop</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-laptop"></Icon>
+            <p>android-laptop</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-phone-portrait"></Icon>
+            <p>android-phone-portrait</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-phone-landscape"></Icon>
+            <p>android-phone-landscape</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-bulb"></Icon>
+            <p>android-bulb</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-sunny"></Icon>
+            <p>android-sunny</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-alert"></Icon>
+            <p>android-alert</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="android-warning"></Icon>
+            <p>android-warning</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-twitter"></Icon>
+            <p>social-twitter</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-twitter-outline"></Icon>
+            <p>social-twitter-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-facebook"></Icon>
+            <p>social-facebook</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-facebook-outline"></Icon>
+            <p>social-facebook-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-googleplus"></Icon>
+            <p>social-googleplus</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-googleplus-outline"></Icon>
+            <p>social-googleplus-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-google"></Icon>
+            <p>social-google</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-google-outline"></Icon>
+            <p>social-google-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-dribbble"></Icon>
+            <p>social-dribbble</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-dribbble-outline"></Icon>
+            <p>social-dribbble-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-octocat"></Icon>
+            <p>social-octocat</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-github"></Icon>
+            <p>social-github</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-github-outline"></Icon>
+            <p>social-github-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-instagram"></Icon>
+            <p>social-instagram</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-instagram-outline"></Icon>
+            <p>social-instagram-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-whatsapp"></Icon>
+            <p>social-whatsapp</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-whatsapp-outline"></Icon>
+            <p>social-whatsapp-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-snapchat"></Icon>
+            <p>social-snapchat</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-snapchat-outline"></Icon>
+            <p>social-snapchat-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-foursquare"></Icon>
+            <p>social-foursquare</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-foursquare-outline"></Icon>
+            <p>social-foursquare-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-pinterest"></Icon>
+            <p>social-pinterest</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-pinterest-outline"></Icon>
+            <p>social-pinterest-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-rss"></Icon>
+            <p>social-social-rss</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-rss-outline"></Icon>
+            <p>social-rss-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-tumblr"></Icon>
+            <p>social-tumblr</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-tumblr-outline"></Icon>
+            <p>social-tumblr-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-wordpress"></Icon>
+            <p>social-wordpress</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-wordpress-outline"></Icon>
+            <p>social-wordpress-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-reddit"></Icon>
+            <p>social-reddit</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-reddit-outline"></Icon>
+            <p>social-reddit-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-hackernews"></Icon>
+            <p>social-hackernews</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-hackernews-outline"></Icon>
+            <p>social-hackernews-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-designernews"></Icon>
+            <p>social-designernews</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-designernews-outline"></Icon>
+            <p>social-designernews-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-yahoo"></Icon>
+            <p>social-yahoo</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-yahoo-outline"></Icon>
+            <p>social-yahoo-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-buffer"></Icon>
+            <p>social-buffer</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-buffer-outline"></Icon>
+            <p>social-buffer-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-skype"></Icon>
+            <p>social-skype</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-skype-outline"></Icon>
+            <p>social-skype-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-linkedin"></Icon>
+            <p>social-linkedin</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-linkedin-outline"></Icon>
+            <p>social-linkedin-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-vimeo"></Icon>
+            <p>social-vimeo</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-vimeo-outline"></Icon>
+            <p>social-vimeo-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-twitch"></Icon>
+            <p>social-twitch</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-twitch-outline"></Icon>
+            <p>social-twitch-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-youtube"></Icon>
+            <p>social-youtube</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-youtube-outline"></Icon>
+            <p>social-youtube-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-dropbox"></Icon>
+            <p>social-dropbox</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-dropbox-outline"></Icon>
+            <p>social-dropbox-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-apple"></Icon>
+            <p>social-apple</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-apple-outline"></Icon>
+            <p>social-apple-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-android"></Icon>
+            <p>social-android</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-android-outline"></Icon>
+            <p>social-android-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-windows"></Icon>
+            <p>social-windows</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-windows-outline"></Icon>
+            <p>social-windows-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-html5"></Icon>
+            <p>social-html5</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-html5-outline"></Icon>
+            <p>social-html5-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-css3"></Icon>
+            <p>social-css3</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-css3-outline"></Icon>
+            <p>social-css3-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-javascript"></Icon>
+            <p>social-javascript</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-javascript-outline"></Icon>
+            <p>social-javascript-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-angular"></Icon>
+            <p>social-angular</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-angular-outline"></Icon>
+            <p>social-angular-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-nodejs"></Icon>
+            <p>social-nodejs</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-sass"></Icon>
+            <p>social-sass</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-python"></Icon>
+            <p>social-pyhon</p>
         </div>
+        <div class="icons-item">
+            <Icon type="social-chrome"></Icon>
+            <p>social-chrome</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-chrome-outline"></Icon>
+            <p>social-chrome-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-codepen"></Icon>
+            <p>social-codepen</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-codepen-outline"></Icon>
+            <p>social-codepen-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-markdown"></Icon>
+            <p>social-markdown</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-tux"></Icon>
+            <p>social-tux</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-freebsd-devil"></Icon>
+            <p>social-freebsd-devil</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-usd"></Icon>
+            <p>social-usd</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-usd-outline"></Icon>
+            <p>social-usd-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-bitcoin"></Icon>
+            <p>social-bitcoin</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-bitcoin-outline"></Icon>
+            <p>social-bitcoin-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-yen"></Icon>
+            <p>social-yen</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-yen-outline"></Icon>
+            <p>social-yen-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-euro"></Icon>
+            <p>social-euro</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="social-euro-outline"></Icon>
+            <p>social-euro-outline</p>
+        </div>
+
 
 
 
