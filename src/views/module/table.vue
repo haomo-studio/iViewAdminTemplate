@@ -1,7 +1,7 @@
 <template>
     <!--<div style="margin:5px">-->
-        <!--<i-button type="primary" style="margin-left:10px;">简单表格</i-button>-->
-        <!--<i-button type="warning" style="margin-left:10px;">数据表格</i-button>-->
+    <!--<i-button type="primary" style="margin-left:10px;">简单表格</i-button>-->
+    <!--<i-button type="warning" style="margin-left:10px;">数据表格</i-button>-->
     <!--</div>-->
     <div style="margin: 15px; box-shadow: -5px -5px 5px #ddd; padding: 10px;">
         <h3>普通表格</h3>
