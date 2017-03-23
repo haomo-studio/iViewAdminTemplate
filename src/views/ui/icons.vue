@@ -1385,9 +1385,846 @@
             <Icon type="ios-pulse-strong"></Icon>
             <p>ios-pulse-strong</p>
         </div>
+        <div class="icons-item">
+            <Icon type="ios-filing"></Icon>
+            <p>ios-filing</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-filing-outline"></Icon>
+            <p>ios-filing-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-box"></Icon>
+            <p>ios-box</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-box-outline"></Icon>
+            <p>ios-box-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-compose"></Icon>
+            <p>ios-compose</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-compose-outline"></Icon>
+            <p>ioc-compose-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-trash"></Icon>
+            <p>ios-trash</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-trash-outline"></Icon>
+            <p>ios-trash-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-copy"></Icon>
+            <p>ios-copy</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-copy-outline"></Icon>
+            <p>ios-copy-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-email"></Icon>
+            <p>ios-email</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-email-outline"></Icon>
+            <p>ios-email-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-undo"></Icon>
+            <p>ios-undo</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-undo-outline"></Icon>
+            <p>ios-undo-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-redo"></Icon>
+            <p>ios-redo</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-redo-outline"></Icon>
+            <p>ios-redo-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-paperplane"></Icon>
+            <p>ios-paperplane</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-paperplane-outline"></Icon>
+            <p>ios-paperplane-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-folder"></Icon>
+            <p>ios-folder</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-folder-outline"></Icon>
+            <p>ios-folder-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-paper"></Icon>
+            <p>ios-paper</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-paper-outline"></Icon>
+            <p>ios-paper-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-list"></Icon>
+            <p>ios-list</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-list-outline"></Icon>
+            <p>ios0-list-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-world"></Icon>
+            <p>ios-world</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-world-outline"></Icon>
+            <p>ios-world-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-alarm"></Icon>
+            <p>ios-alarm</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-alarm-outline"></Icon>
+            <p>ios-alarm-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-speedometer"></Icon>
+            <p>ios-speedometer</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-speedometer-outline"></Icon>
+            <p>ios-speedometer-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-stopwatch"></Icon>
+            <p>ios-stopwatch</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-stopwatch-outline"></Icon>
+            <p>ios-stopwatch-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-timer"></Icon>
+            <p>ios-timer</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-timer-outline"></Icon>
+            <p>ios-timer-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-clock"></Icon>
+            <p>ios-clock</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-clock-outline"></Icon>
+            <p>ios-clock-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-time"></Icon>
+            <p>ios-time</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-time-outline"></Icon>
+            <p>ios-time-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-calendar"></Icon>
+            <p>ios-calendar</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-calendar-outline"></Icon>
+            <p>ios-calendar-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-photos"></Icon>
+            <p>ios-photos</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-photos-outline"></Icon>
+            <p>ios-photos-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-albums"></Icon>
+            <p>ios-albums</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-albums-outline"></Icon>
+            <p>ios-albums-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-camera"></Icon>
+            <p>ios-camera</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-camera-outline"></Icon>
+            <p>ios-camera-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-reverse-camera"></Icon>
+            <p>ios-reverse-camera</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-reverse-camera-outline"></Icon>
+            <p>ios-reverse-camera-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-eye"></Icon>
+            <p>ios-eye</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-eye-outline"></Icon>
+            <p>ios-eye-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-bolt"></Icon>
+            <p>ios-bolt</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-bolt-outline"></Icon>
+            <p>ios-bolt-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-color-wand"></Icon>
+            <p>ios-color-wand</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-color-wand-outline"></Icon>
+            <p>ios-color-wand-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-color-filter"></Icon>
+            <p>ios-color-filter</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-color-filter-outline"></Icon>
+            <p>ios-color-filter-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-grid-view"></Icon>
+            <p>ios-grid-view</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-grid-view-outline"></Icon>
+            <p>ios-grid-view-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-crop-strong"></Icon>
+            <p>ios-crop-strong</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-crop"></Icon>
+            <p>ios-crop</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-barcode"></Icon>
+            <p>ios-barcode</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-barcode-outline"></Icon>
+            <p>ios-barcode-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-briefcase"></Icon>
+            <p>ios-briefcase</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-briefcase-outline"></Icon>
+            <p>ios-briefcase-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-medkit"></Icon>
+            <p>ios-medkit</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-medkit-outline"></Icon>
+            <p>ios-medkit-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-medical"></Icon>
+            <p>ios-medical</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-medical-outline"></Icon>
+            <p>ios-medical-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-infinite"></Icon>
+            <p>ios-infinite</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-infinite-outline"></Icon>
+            <p>ios-infinite-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-calculator"></Icon>
+            <p>ios-calculator</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-calculator-outline"></Icon>
+            <p>ios-calculator-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-keypad"></Icon>
+            <p>ios-keypad</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-keypad-outline"></Icon>
+            <p>ios-keypad-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-telephone"></Icon>
+            <p>ios-telephone</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-telephone-outline"></Icon>
+            <p>ios-telephone-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-drag"></Icon>
+            <p>ios-drag</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-location"></Icon>
+            <p>ios-location</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-location-outline"></Icon>
+            <p>ios-location-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-navigate"></Icon>
+            <p>ios-navigate</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-navigate-outline"></Icon>
+            <p>ios-navigate-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-locked"></Icon>
+            <p>ios-locked</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-locked-outline"></Icon>
+            <p>ios-locked-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-unlocked"></Icon>
+            <p>ios-unlocked</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-unlocked-outline"></Icon>
+            <p>ios-unlocked-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-monitor"></Icon>
+            <p>ios-monitor</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-monitor-outline"></Icon>
+            <p>ios-monitor-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-printer"></Icon>
+            <p>ios-printer</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-printer-outline"></Icon>
+            <p>ios-printer-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-game-controller-a"></Icon>
+            <p>ios-game-controller-a</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-game-controller-a-outline"></Icon>
+            <p>ios-game-controller-a-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-game-controller-a-outline"></Icon>
+            <p>ios-game-controller-a-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-game-controller-b"></Icon>
+            <p>ios-game-controller-b</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-game-controller-b-outline"></Icon>
+            <p>ios-game-controller-b-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-americanfootball"></Icon>
+            <p>ios-americanfootball</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-americanfootball-outline"></Icon>
+            <p>ios-americanfootball-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-baseball"></Icon>
+            <p>ios-baseball</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-baseball-outline"></Icon>
+            <p>ios-baseball-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-basketball"></Icon>
+            <p>ios-basketball</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-basketball-outline"></Icon>
+            <p>ios-basketball-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-tennisball"></Icon>
+            <p>ios-tennisball</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-tennisball-outline"></Icon>
+            <p>ios-tennisball-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-football"></Icon>
+            <p>ios-football</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-football-outline"></Icon>
+            <p>ios-football-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-body"></Icon>
+            <p>ios-body</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-body-outline"></Icon>
+            <p>ios-body-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-person"></Icon>
+            <p>ios-person</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-person-outline"></Icon>
+            <p>ios-person-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-personadd"></Icon>
+            <p>ios-personadd</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-personadd-outline"></Icon>
+            <p>ios-personadd-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-people"></Icon>
+            <p>ios-people</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-people-outline"></Icon>
+            <p>ios-people-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-musical-notes"></Icon>
+            <p>ios-musical-notes</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-musical-notes"></Icon>
+            <p>ios-musical-notes</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-musical-note"></Icon>
+            <p>ios-musical-note</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-bell"></Icon>
+            <p>ios-bell</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-bell-outline"></Icon>
+            <p>ios-bell-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-mic"></Icon>
+            <p>ios-mic</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-mic-outline"></Icon>
+            <p>ios-mic-outline</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-mic-off"></Icon>
+            <p>ios-mic-off</p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-volume-high"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-volume-low"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-play"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-play-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-pause"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-pause-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-recording"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-recording-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-fastforward"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-fastforward-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-rewind"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-rewind-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-skipbackward"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-skipbackward-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-skipforward"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-skipforward-outline"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-shuffle-strong"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-shuffle"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
+            <Icon type="ios-videocam"></Icon>
+            <p></p>
+        </div>
+        <div class="icons-item">
 
+            <p></p>
+        </div>
+        <div class="icons-item">
 
+            <p></p>
+        </div>
+        <div class="icons-item">
 
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
+        <div class="icons-item">
+
+            <p></p>
+        </div>
 
 
 
