@@ -21,7 +21,8 @@
     "vue": "^1.0.26",
     "axios": "^0.15.3",
     "vue-i18n": "^4.10.0",
-    "vuex": "^1.0.1"
+    "vuex": "^1.0.1",
+    "echarts": "3.4.0"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
