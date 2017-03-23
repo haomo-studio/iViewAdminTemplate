@@ -1,7 +1,7 @@
 <template>
     <!--<div style="margin:5px">-->
-        <!--<i-button type="primary" style="margin-left:10px;">简单表格</i-button>-->
-        <!--<i-button type="warning" style="margin-left:10px;">数据表格</i-button>-->
+    <!--<i-button type="primary" style="margin-left:10px;">简单表格</i-button>-->
+    <!--<i-button type="warning" style="margin-left:10px;">数据表格</i-button>-->
     <!--</div>-->
     <div style="margin: 15px; box-shadow: -5px -5px 5px #ddd; padding: 10px;">
         <h3>普通表格</h3>
@@ -10,6 +10,12 @@
         <i-table height="200" :columns="columns1" :data="data2"></i-table>
         <h3>固定列</h3>
         <i-table width="700" border :columns="columns2" :data="data3"></i-table>
+        <h3>多选表格</h3>
+        <i-table border :columns="columns4" :data="data1"></i-table>
+        <h3>详情表格</h3>
+        <i-table border :content="self" :columns="columns7" :data="data6"></i-table>
+        <h3>排序表格</h3>
+        <i-table border :columns="columns5" :data="data5"></i-table>
         <h3>导出数据</h3>
         <i-table :columns="columns8" :data="data7" size="small" v-ref:table></i-table>
         <br>
@@ -23,6 +29,7 @@
     export default {
         data () {
             return {
+                self: this,
                 columns1: [
                     {
                         title: '姓名',
@@ -77,6 +84,97 @@
                         render () {
                             return `<i-button type="text" size="small">查看</i-button><i-button type="text" size="small">编辑</i-button>`;
                         }
+                    }
+                ],
+                columns4: [
+                    {
+                        type: 'selection',
+                        width: 60,
+                        align: 'center'
+                    },
+                    {
+                        title: '姓名',
+                        key: 'name'
+                    },
+                    {
+                        title: '年龄',
+                        key: 'age'
+                    },
+                    {
+                        title: '地址',
+                        key: 'address'
+                    }
+                ],
+                columns5: [
+                    {
+                        title: '日期',
+                        key: 'date',
+                        sortable: true
+                    },
+                    {
+                        title: '姓名',
+                        key: 'name'
+                    },
+                    {
+                        title: '年龄',
+                        key: 'age',
+                        sortable: true
+                    },
+                    {
+                        title: '地址',
+                        key: 'address'
+                    }
+                ],
+                columns7: [
+                    {
+                        title: '姓名',
+                        key: 'name',
+                        render (row, column, index) {
+                            return `<Icon type="person"></Icon> <strong>${row.name}</strong>`;
+                        }
+                    },
+                    {
+                        title: '年龄',
+                        key: 'age'
+                    },
+                    {
+                        title: '地址',
+                        key: 'address'
+                    },
+                    {
+                        title: '操作',
+                        key: 'action',
+                        width: 150,
+                        align: 'center',
+                        render (row, column, index) {
+                            return `<i-button type="primary" size="small" @click="show(${index})">查看</i-button> <i-button type="error" size="small" @click="remove(${index})">删除</i-button>`;
+                        }
+                    }
+                ],
+                data5: [
+                    {
+                        name: '王小明',
+                        age: 18,
+                        address: '北京市朝阳区芍药居',
+                        date: '2016-10-03'
+                    },
+                    {
+                        name: '张小刚',
+                        age: 25,
+                        address: '北京市海淀区西二旗',
+                        date: '2016-10-01'
+                    },
+                    {
+                        name: '李小红',
+                        age: 30,
+                        address: '上海市浦东新区世纪大道',
+                        date: '2016-10-02'
+                    },
+                    {
+                        name: '周小伟',
+                        age: 26,
+                        address: '深圳市南山区深南大道',
+                        date: '2016-10-04'
                     }
                 ],
                 columns8: [
@@ -269,6 +367,28 @@
                         zip: 100000
                     }
                 ],
+                data6: [
+                    {
+                        name: '王小明',
+                        age: 18,
+                        address: '北京市朝阳区芍药居'
+                    },
+                    {
+                        name: '张小刚',
+                        age: 25,
+                        address: '北京市海淀区西二旗'
+                    },
+                    {
+                        name: '李小红',
+                        age: 30,
+                        address: '上海市浦东新区世纪大道'
+                    },
+                    {
+                        name: '周小伟',
+                        age: 26,
+                        address: '深圳市南山区深南大道'
+                    }
+                ],
                 data7: [
                     {
                         "name": "推广名称1",
@@ -441,6 +561,15 @@
                         data: this.data7.filter((data, index) => index < 4)
                     });
                 }
+            },
+            show (index) {
+                this.$Modal.info({
+                    title: '用户信息',
+                    content: `姓名：${this.data6[index].name}<br>年龄：${this.data6[index].age}<br>地址：${this.data6[index].address}`
+                })
+            },
+            remove (index) {
+                this.data6.splice(index, 1);
             }
         }
     }
