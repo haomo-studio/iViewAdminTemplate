@@ -283,7 +283,7 @@
 
 <template>
     <div class="box" id="box">
-        <div class="layout separate">
+        <div class="layout separate" id="item1">
             <Menu mode="horizontal" theme="dark" active-key="1">
                 <div class="layout-logo"></div>
                 <div class="layout-nav">
@@ -330,7 +330,7 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
-            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span
+            <pre v-if="showPre1"  _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span
                     class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span
                     class="css">
     <span class="hljs-class">.layout</span><span class="hljs-rules">{
@@ -485,14 +485,15 @@
     }
 </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
             </code></pre>
-            <header class="codeTitle" v-on="click: toggleShow()">
-                <Icon type="chevron-down" style="font-size: 12px"></Icon>
+            <header class="codeTitle" @click="showPre($event,1,'item1')">
+                <Icon type="chevron-down" v-if="!showPre1"></Icon>
+                <Icon type="chevron-up" v-else></Icon>
                 显示代码
             </header>
         </div>
         <div></div>
         <!--第二部分模板-->
-        <div class="layout separate">
+        <div class="layout separate" id="item2">
             <Menu mode="horizontal" theme="dark" active-key="1">
                 <div class="layout-logo"></div>
                 <div class="layout-nav">
@@ -565,7 +566,7 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
-            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+            <pre v-if="showPre2" _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
     <span class="hljs-class">.layout</span><span class="hljs-rules">{
         <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
         <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
@@ -685,13 +686,14 @@
     }
 </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
             </code></pre>
-            <header class="codeTitle" v-on="click: toggleShow()">
-                <Icon type="chevron-down" style="font-size: 12px"></Icon>
+            <header class="codeTitle" @click="showPre($event,2,'item2')">
+                <Icon type="chevron-down" v-if="!showPre2"></Icon>
+                <Icon type="chevron-up" v-else></Icon>
                 显示代码
             </header>
         </div>
         <!--第三部分-->
-        <div class="layout separate">
+        <div class="layout separate" id="item3">
             <Row type="flex">
                 <i-col span="5" class="layout-menu-left">
                     <Menu active-key="1-2" theme="dark" width="auto" :open-keys="['1']">
@@ -745,7 +747,7 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
-            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+            <pre v-if="showPre3" _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
     <span class="hljs-class">.layout</span><span class="hljs-rules">{
         <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
         <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
@@ -843,13 +845,14 @@
     }
 </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
             </code></pre>
-            <header class="codeTitle" v-on="click: toggleShow()">
-                <Icon type="chevron-down" style="font-size: 12px"></Icon>
+            <header class="codeTitle" @click="showPre($event,3,'item3')" >
+                <Icon type="chevron-down" v-if="!showPre3" ></Icon>
+                <Icon type="chevron-up" v-else></Icon>
                 显示代码
             </header>
         </div>
         <!--第四部分-->
-        <div class="layout separate">
+        <div class="layout separate" id="item4">
             <div class="layout-ceiling">
                 <div class="layout-ceiling-main">
                     <a href="#">注册登录</a> |
@@ -870,7 +873,7 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
-            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+            <pre v-if="showPre4" _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
     <span class="hljs-class">.layout</span><span class="hljs-rules">{
         <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
         <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
@@ -936,13 +939,14 @@
     }
 </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
             </code></pre>
-            <header class="codeTitle" v-on="click: toggleShow()">
-                <Icon type="chevron-down" style="font-size: 12px"></Icon>
+            <header class="codeTitle" @click="showPre($event,4,'item4')">
+                <Icon type="chevron-down" v-if="showPre4"></Icon>
+                <Icon type="chevron-up" v-else></Icon>
                 显示代码
             </header>
         </div>
         <!--第五部分-->
-        <div class="layout separate" :class="{'layout-hide-text': spanLeft < 5}">
+        <div id="item5" class="layout separate" :class="{'layout-hide-text': spanLeft < 5}">
             <Row type="flex">
                 <i-col :span="spanLeft" class="layout-menu-left">
                     <Menu active-key="1" theme="dark" width="auto">
@@ -987,7 +991,7 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
-            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+            <pre v-if="showPre5" _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
     <span class="hljs-class">.layout</span><span class="hljs-rules">{
         <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
         <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
@@ -1108,8 +1112,9 @@
     }
 </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
             </code></pre>
-            <header class="codeTitle" v-on="click: toggleShow()">
-                <Icon type="chevron-down" style="font-size: 12px"></Icon>
+            <header class="codeTitle" @click="showPre($event,5,'item5')">
+                <Icon type="chevron-down" v-if="!showPre5" ></Icon>
+                <Icon type="chevron-up" v-else></Icon>
                 显示代码
             </header>
         </div>
@@ -1119,12 +1124,18 @@
 </template>
 
 <script>
+    import $ from "jquery";
     export default {
         data ()
     {
         return {
             spanLeft: 5,
-            spanRight: 19
+            spanRight: 19,
+            showPre1: false,
+            showPre2: false,
+            showPre3: false,
+            showPre4: false,
+            showPre5: false
         }
     }
     ,
@@ -1144,6 +1155,15 @@
             } else {
                 this.spanLeft = 5;
                 this.spanRight = 19;
+            }
+        },
+        showPre (event,index,id) {
+            if(this['showPre'+index]){
+                var anchor = this.$el.querySelector('#'+id);
+                $("body").animate({scrollTop:anchor.offsetTop});
+                this.$set('showPre'+index, false);
+            }else{
+                this.$set('showPre'+index, true);
             }
         }
     }
