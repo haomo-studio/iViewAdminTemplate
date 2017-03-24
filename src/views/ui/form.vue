@@ -46,7 +46,8 @@
                 <Slider :value.sync="formItem.slider" range></Slider>
             </Form-item>
             <Form-item label="文本域">
-                <i-input :value.sync="formItem.textarea" type="textarea" :autosize="{minRows: 2,maxRows: 5}" placeholder="请输入..."></i-input>
+                <i-input :value.sync="formItem.textarea" type="textarea" :autosize="{minRows: 2,maxRows: 5}"
+                         placeholder="请输入..."></i-input>
             </Form-item>
             <Form-item>
                 <i-button type="primary">提交</i-button>
@@ -56,20 +57,41 @@
     </Card>
 
     <Card>
-      <pre data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">Form</span> <span class="hljs-attribute">ref</span>=<span class="hljs-value">"formInline"</span> <span class="hljs-attribute">:model</span>=<span class="hljs-value">"formInline"</span> <span class="hljs-attribute">:rules</span>=<span class="hljs-value">"ruleInline"</span> <span class="hljs-attribute">inline</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">Form-item</span> <span class="hljs-attribute">prop</span>=<span class="hljs-value">"user"</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">Input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span class="hljs-attribute">v-model</span>=<span class="hljs-value">"formInline.user"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Username"</span>&gt;</span>
-                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-person-outline"</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"prepend"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+      <pre data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span
+              class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Form</span> <span class="hljs-attribute">ref</span>=<span
+            class="hljs-value">"formInline"</span> <span class="hljs-attribute">:model</span>=<span class="hljs-value">"formInline"</span> <span
+            class="hljs-attribute">:rules</span>=<span class="hljs-value">"ruleInline"</span> <span
+            class="hljs-attribute">inline</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Form-item</span> <span
+                class="hljs-attribute">prop</span>=<span class="hljs-value">"user"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Input</span> <span
+                    class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> <span
+                    class="hljs-attribute">v-model</span>=<span class="hljs-value">"formInline.user"</span> <span
+                    class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Username"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span
+                        class="hljs-value">"ios-person-outline"</span> <span class="hljs-attribute">slot</span>=<span
+                        class="hljs-value">"prepend"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+                  class="hljs-title">Icon</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-title">Input</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-title">Form-item</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">Form-item</span> <span class="hljs-attribute">prop</span>=<span class="hljs-value">"password"</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">Input</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"password"</span> <span class="hljs-attribute">v-model</span>=<span class="hljs-value">"formInline.password"</span> <span class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Password"</span>&gt;</span>
-                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-locked-outline"</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"prepend"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Form-item</span> <span
+                class="hljs-attribute">prop</span>=<span class="hljs-value">"password"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Input</span> <span
+                    class="hljs-attribute">type</span>=<span class="hljs-value">"password"</span> <span
+                    class="hljs-attribute">v-model</span>=<span class="hljs-value">"formInline.password"</span> <span
+                    class="hljs-attribute">placeholder</span>=<span class="hljs-value">"Password"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span
+                        class="hljs-value">"ios-locked-outline"</span> <span class="hljs-attribute">slot</span>=<span
+                        class="hljs-value">"prepend"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+                  class="hljs-title">Icon</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-title">Input</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-title">Form-item</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-title">Form-item</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">Button</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"primary"</span> @<span class="hljs-attribute">click</span>=<span class="hljs-value">"handleSubmit('formInline')"</span>&gt;</span>登录<span class="hljs-tag">&lt;/<span class="hljs-title">Button</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Button</span> <span
+                    class="hljs-attribute">type</span>=<span class="hljs-value">"primary"</span> @<span
+                    class="hljs-attribute">click</span>=<span class="hljs-value">"handleSubmit('formInline')"</span>&gt;</span>登录<span
+                  class="hljs-tag">&lt;/<span class="hljs-title">Button</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-title">Form-item</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-title">Form</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
@@ -83,11 +105,14 @@
                 },
                 ruleInline: {
                     user: [
-                        { required: <span class="hljs-literal">true</span>, message: <span class="hljs-string">'请填写用户名'</span>, trigger: <span class="hljs-string">'blur'</span> }
+                        { required: <span class="hljs-literal">true</span>, message: <span
+                  class="hljs-string">'请填写用户名'</span>, trigger: <span class="hljs-string">'blur'</span> }
                     ],
                     password: [
-                        { required: <span class="hljs-literal">true</span>, message: <span class="hljs-string">'请填写密码'</span>, trigger: <span class="hljs-string">'blur'</span> },
-                        { type: <span class="hljs-string">'string'</span>, min: <span class="hljs-number">6</span>, message: <span class="hljs-string">'密码长度不能小于6位'</span>, trigger: <span class="hljs-string">'blur'</span> }
+                        { required: <span class="hljs-literal">true</span>, message: <span
+                  class="hljs-string">'请填写密码'</span>, trigger: <span class="hljs-string">'blur'</span> },
+                        { type: <span class="hljs-string">'string'</span>, min: <span class="hljs-number">6</span>, message: <span
+                  class="hljs-string">'密码长度不能小于6位'</span>, trigger: <span class="hljs-string">'blur'</span> }
                     ]
                 }
             }
