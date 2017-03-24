@@ -63,6 +63,7 @@
     </div>
 </template>
 <script lang="babel">
+    import _ from 'lodash';
     export default {
         data () {
             return {
@@ -112,6 +113,10 @@
                 this.showItem = 'login';
                 this.zcpassword1 = '';
                 this.zcpassword2 = '';
+                var arr = [1,2,3,4];
+                _.each(arr, function(item){
+                    console.log(item);
+                })
             }
         }
     }
