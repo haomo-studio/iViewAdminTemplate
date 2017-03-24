@@ -11,8 +11,9 @@
         min-height: 200px;
         margin: 15px;
         overflow: hidden;
-        background: #fff;
-        border-radius: 4px;
+        /*background: #fff;*/
+        border-radius: 10px;
+        padding: 6px;
     }
     .layout-content-main{
         padding: 10px;
