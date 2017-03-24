@@ -28,7 +28,7 @@
         background-color:#f5f7f9;
     }
     .error-code{
-        font-size:112px;
+        font-size:9em;
         text-align:center;
         line-height:1;
         margin-bottom:16px;
@@ -36,13 +36,13 @@
         color:#202020;
     }
    .center .message{
-        font-size:24px;
+        font-size:2em;
         text-align:center;
         color:rgba(0,0,0,0.54);
     }
     .search{
         width:50%;
-        height:56px;
+        height:5%;
         line-height:25px;
         margin:48px auto 16px;
         padding:16px;
