@@ -18,6 +18,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "echarts": "3.4.0",
+    "html-withimg-loader": "^0.1.16",
     "iview": "^1.0.0",
     "jquery": "^3.2.1",
     "vue": "^1.0.26",
@@ -40,6 +41,7 @@
     "file-loader": "^0.8.5",
     "html-loader": "^0.3.0",
     "html-webpack-plugin": "^2.22.0",
+    "html-withimg-loader": "^0.1.16",
     "open-browser-webpack-plugin": "0.0.5",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
