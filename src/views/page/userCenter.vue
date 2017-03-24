@@ -1,4 +1,6 @@
 <template>
+   <div class="top" >
+   </div>
     <Tabs active-key="key1">
         <Tab-pane label="标签一" key="key1">标签一的内容</Tab-pane>
         <Tab-pane label="标签二" key="key2">标签二的内容</Tab-pane>
@@ -182,12 +184,17 @@
     </div>
 </template>
 <script>
+    //import back from './img/back-img.jpg';
+    import user from './img/user-img.jpg'
     export default {
 
     }
 </script>
 
 <style>
+.top{
+    background: url('./img/back-img.jpg');
+}
  .left{
      float:left;
      width:65%;
@@ -219,4 +226,9 @@
     float:left;
 }
 .rg{float:right;}
+.user{
+    pisitopn:absolute;
+    top:100px;
+    left:100px;
+}
 </style>
