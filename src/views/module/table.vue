@@ -3,9 +3,67 @@
     <!--<i-button type="primary" style="margin-left:10px;">简单表格</i-button>-->
     <!--<i-button type="warning" style="margin-left:10px;">数据表格</i-button>-->
     <!--</div>-->
-    <div style="margin: 15px; box-shadow: -5px -5px 5px #ddd; padding: 10px;">
-        <h3>普通表格</h3>
+    <div style="margin: 15px; box-shadow: -5px -5px 5px #ddd; padding: 10px;" >
+        <h3 id="ptTable">普通表格</h3>
         <i-table :columns="columns1" :data="data1"></i-table>
+        <pre  data-v-3802a467="" class="" v-if="showPre1" style="height:928px">
+            <code class="html hljs xml">
+                <code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns1"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                columns1: [
+                    {
+                        title: <span class="hljs-string">'姓名'</span>,
+                        key: <span class="hljs-string">'name'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'年龄'</span>,
+                        key: <span class="hljs-string">'age'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'地址'</span>,
+                        key: <span class="hljs-string">'address'</span>
+                    }
+                ],
+                data1: [
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>
+                    }
+                ]
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code>
+            </code>
+        </pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,1)">
+            <Icon type="chevron-down" size="10" v-if="showPre1"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
         <h3>固定表头</h3>
         <i-table height="200" :columns="columns1" :data="data2"></i-table>
         <h3>固定列</h3>
@@ -25,7 +83,7 @@
     </div>
 </template>
 </template>
-<script>
+<script lang="babel">
     export default {
         data () {
             return {
@@ -540,7 +598,8 @@
                         "week": 2864,
                         "month": 5811
                     }
-                ]
+                ],
+                showPre1: false
             }
         },
         methods: {
@@ -570,6 +629,19 @@
             },
             remove (index) {
                 this.data6.splice(index, 1);
+            },
+            showPre(event,index){
+                if(index == 1){
+                    if(this.showPre1){
+                        var anchor = this.$el.querySelector('#ptTable');
+                        document.body.scrollTop = anchor.offsetTop;
+
+                        this.$set('showPre1', false);
+                    }else{
+                        this.$set('showPre1', true);
+                    }
+
+                }
             }
         }
     }

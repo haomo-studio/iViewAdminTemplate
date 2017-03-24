@@ -2963,6 +2963,6 @@
         height: 2em;
     }
     .ivu-icon {
-        font-size:32px;
+        font-size:14px;
     }
 </style>
