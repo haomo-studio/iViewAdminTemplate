@@ -11,7 +11,7 @@ module.exports = {
     // 输出
     output: {
         path: path.join(__dirname, './dist'),
-        publicPath: ""
+        publicPath: "/"
     },
     // 加载器
     module: {
