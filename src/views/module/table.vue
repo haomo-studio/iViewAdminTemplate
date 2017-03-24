@@ -6,7 +6,7 @@
     <div style="margin: 15px; box-shadow: -5px -5px 5px #ddd; padding: 10px;" >
         <h3 id="ptTable">普通表格</h3>
         <i-table :columns="columns1" :data="data1"></i-table>
-        <pre  data-v-3802a467="" class="" v-if="showPre1" style="height:928px">
+        <pre data-v-3802a467="" class="" v-if="showPre1" style="height:928px; margin-bottom: 0">
             <code class="html hljs xml">
                 <code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns1"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
@@ -60,30 +60,688 @@
         </pre>
         <div style="border:1px solid #ddd; text-align:center;
             border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;" @click="showPre($event,1)">
+            border-bottom-right-radius: 10px;" @click="showPre($event,1,'ptTable')">
             <Icon type="chevron-down" size="10" v-if="showPre1"></Icon>
             <Icon type="chevron-up" size="10" v-else></Icon>
         </div>
-        <h3>固定表头</h3>
+        <h3 id="gdTable">固定表头</h3>
         <i-table height="200" :columns="columns1" :data="data2"></i-table>
-        <h3>固定列</h3>
+        <pre style="margin-bottom: 0" data-v-3802a467="" class="" v-if="showPre2"><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">height</span>=<span class="hljs-value">"200"</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns1"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                columns1: [
+                    {
+                        title: <span class="hljs-string">'姓名'</span>,
+                        key: <span class="hljs-string">'name'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'年龄'</span>,
+                        key: <span class="hljs-string">'age'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'地址'</span>,
+                        key: <span class="hljs-string">'address'</span>
+                    }
+                ],
+                data2: [
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>
+                    }
+                ]
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,2,'gdTable')">
+            <Icon type="chevron-down" size="10" v-if="showPre2"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
+        <h3 id="gdlTable">固定列</h3>
         <i-table width="700" border :columns="columns2" :data="data3"></i-table>
-        <h3>多选表格</h3>
+        <pre style="margin-bottom: 0" v-if="showPre3" data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"550"</span> <span class="hljs-attribute">border</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns2"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="actionscript">
+    export <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                columns2: [
+                    {
+                        title: <span class="hljs-string">'姓名'</span>,
+                        key: <span class="hljs-string">'name'</span>,
+                        width: <span class="hljs-number">100</span>,
+                        fixed: <span class="hljs-string">'left'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'年龄'</span>,
+                        key: <span class="hljs-string">'age'</span>,
+                        width: <span class="hljs-number">100</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'省份'</span>,
+                        key: <span class="hljs-string">'province'</span>,
+                        width: <span class="hljs-number">100</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'市区'</span>,
+                        key: <span class="hljs-string">'city'</span>,
+                        width: <span class="hljs-number">100</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'地址'</span>,
+                        key: <span class="hljs-string">'address'</span>,
+                        width: <span class="hljs-number">200</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'邮编'</span>,
+                        key: <span class="hljs-string">'zip'</span>,
+                        width: <span class="hljs-number">100</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'操作'</span>,
+                        key: <span class="hljs-string">'action'</span>,
+                        fixed: <span class="hljs-string">'right'</span>,
+                        width: <span class="hljs-number">120</span>,
+                        render () {
+                            <span class="hljs-keyword">return</span> `&lt;i-button type=<span class="hljs-string">"text"</span> size=<span class="hljs-string">"small"</span>&gt;查看&lt;/i-button&gt;&lt;i-button type=<span class="hljs-string">"text"</span> size=<span class="hljs-string">"small"</span>&gt;编辑&lt;/i-button&gt;`;
+                        }
+                    }
+                ],
+                data3: [
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>,
+                        province: <span class="hljs-string">'北京市'</span>,
+                        city: <span class="hljs-string">'朝阳区'</span>,
+                        zip: <span class="hljs-number">100000</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>,
+                        province: <span class="hljs-string">'北京市'</span>,
+                        city: <span class="hljs-string">'海淀区'</span>,
+                        zip: <span class="hljs-number">100000</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>,
+                        province: <span class="hljs-string">'上海市'</span>,
+                        city: <span class="hljs-string">'浦东新区'</span>,
+                        zip: <span class="hljs-number">100000</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>,
+                        province: <span class="hljs-string">'广东'</span>,
+                        city: <span class="hljs-string">'南山区'</span>,
+                        zip: <span class="hljs-number">100000</span>
+                    }
+                ]
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,3,'gdlTable')">
+            <Icon type="chevron-down" size="10" v-if="showPre3"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
+
+        <h3 id="dxTable">多选表格</h3>
         <i-table border :columns="columns4" :data="data1"></i-table>
-        <h3>详情表格</h3>
+        <pre style="margin-bottom: 0" v-if="showPre4" data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">border</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns4"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                columns4: [
+                    {
+                        type: <span class="hljs-string">'selection'</span>,
+                        width: <span class="hljs-number">60</span>,
+                        align: <span class="hljs-string">'center'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'姓名'</span>,
+                        key: <span class="hljs-string">'name'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'年龄'</span>,
+                        key: <span class="hljs-string">'age'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'地址'</span>,
+                        key: <span class="hljs-string">'address'</span>
+                    }
+                ],
+                data1: [
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>
+                    }
+                ]
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,4, 'dxTable')">
+            <Icon type="chevron-down" size="10" v-if="showPre4"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
+        <h3 id="xqTable">详情表格</h3>
         <i-table border :content="self" :columns="columns7" :data="data6"></i-table>
-        <h3>排序表格</h3>
-        <i-table border :columns="columns5" :data="data5"></i-table>
-        <h3>导出数据</h3>
+        <pre style="margin-bottom: 0" v-if="showPre5" data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">border</span> <span class="hljs-attribute">:context</span>=<span class="hljs-value">"self"</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns7"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data6"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="actionscript">
+    export <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                self: <span class="hljs-keyword">this</span>,
+                columns7: [
+                    {
+                        title: <span class="hljs-string">'姓名'</span>,
+                        key: <span class="hljs-string">'name'</span>,
+                        render (row, column, index) {
+                            <span class="hljs-keyword">return</span> `&lt;Icon type=<span class="hljs-string">"person"</span>&gt;&lt;/Icon&gt; &lt;strong&gt;${row.name}&lt;/strong&gt;`;
+                        }
+                    },
+                    {
+                        title: <span class="hljs-string">'年龄'</span>,
+                        key: <span class="hljs-string">'age'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'地址'</span>,
+                        key: <span class="hljs-string">'address'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'操作'</span>,
+                        key: <span class="hljs-string">'action'</span>,
+                        width: <span class="hljs-number">150</span>,
+                        align: <span class="hljs-string">'center'</span>,
+                        render (row, column, index) {
+                            <span class="hljs-keyword">return</span> `&lt;i-button type=<span class="hljs-string">"primary"</span> size=<span class="hljs-string">"small"</span> @click=<span class="hljs-string">"show(${index})"</span>&gt;查看&lt;/i-button&gt; &lt;i-button type=<span class="hljs-string">"error"</span> size=<span class="hljs-string">"small"</span> @click=<span class="hljs-string">"remove(${index})"</span>&gt;删除&lt;/i-button&gt;`;
+                        }
+                    }
+                ],
+                data6: [
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>
+                    }
+                ]
+            }
+        },
+        methods: {
+            show (index) {
+                <span class="hljs-keyword">this</span>.$Modal.info({
+                    title: <span class="hljs-string">'用户信息'</span>,
+                    content: `姓名：${<span class="hljs-keyword">this</span>.data6[index].name}&lt;br&gt;年龄：${<span class="hljs-keyword">this</span>.data6[index].age}&lt;br&gt;地址：${<span class="hljs-keyword">this</span>.data6[index].address}`
+                })
+            },
+            remove (index) {
+                <span class="hljs-keyword">this</span>.data6.splice(index, <span class="hljs-number">1</span>);
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,5,'xqTable')">
+            <Icon type="chevron-down" size="10" v-if="showPre5"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
+
+        <h3 id="pxTable">排序表格</h3>
+        <i-table border :columns="columns5" :data="data6"></i-table>
+        <pre style="margin-bottom: 0" v-if="showPre6" data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">border</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns5"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data5"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                columns5: [
+                    {
+                        title: <span class="hljs-string">'日期'</span>,
+                        key: <span class="hljs-string">'date'</span>,
+                        sortable: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'姓名'</span>,
+                        key: <span class="hljs-string">'name'</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'年龄'</span>,
+                        key: <span class="hljs-string">'age'</span>,
+                        sortable: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        title: <span class="hljs-string">'地址'</span>,
+                        key: <span class="hljs-string">'address'</span>
+                    }
+                ],
+                data5: [
+                    {
+                        name: <span class="hljs-string">'王小明'</span>,
+                        age: <span class="hljs-number">18</span>,
+                        address: <span class="hljs-string">'北京市朝阳区芍药居'</span>,
+                        date: <span class="hljs-string">'2016-10-03'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'张小刚'</span>,
+                        age: <span class="hljs-number">25</span>,
+                        address: <span class="hljs-string">'北京市海淀区西二旗'</span>,
+                        date: <span class="hljs-string">'2016-10-01'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'李小红'</span>,
+                        age: <span class="hljs-number">30</span>,
+                        address: <span class="hljs-string">'上海市浦东新区世纪大道'</span>,
+                        date: <span class="hljs-string">'2016-10-02'</span>
+                    },
+                    {
+                        name: <span class="hljs-string">'周小伟'</span>,
+                        age: <span class="hljs-number">26</span>,
+                        address: <span class="hljs-string">'深圳市南山区深南大道'</span>,
+                        date: <span class="hljs-string">'2016-10-04'</span>
+                    }
+                ]
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,6,'pxTable')">
+            <Icon type="chevron-down" size="10" v-if="showPre6"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
+        <h3 id="dcTable">导出数据</h3>
         <i-table :columns="columns8" :data="data7" size="small" v-ref:table></i-table>
         <br>
         <i-button type="primary" size="large" @click="exportData(1)"><Icon type="ios-download-outline"></Icon> 导出原始数据</i-button>
         <i-button type="primary" size="large" @click="exportData(2)"><Icon type="ios-download-outline"></Icon> 导出排序和过滤后的数据</i-button>
         <i-button type="primary" size="large" @click="exportData(3)"><Icon type="ios-download-outline"></Icon> 导出自定义数据</i-button>
+        <pre style="margin-bottom: 0" v-if="showPre7" data-v-3802a467="" class=""><code data-v-3802a467="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Table</span> <span class="hljs-attribute">:columns</span>=<span class="hljs-value">"columns8"</span> <span class="hljs-attribute">:data</span>=<span class="hljs-value">"data7"</span> <span class="hljs-attribute">size</span>=<span class="hljs-value">"small"</span> <span class="hljs-attribute">ref</span>=<span class="hljs-value">"table"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Table</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">br</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Button</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"primary"</span> <span class="hljs-attribute">size</span>=<span class="hljs-value">"large"</span> @<span class="hljs-attribute">click</span>=<span class="hljs-value">"exportData(1)"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-download-outline"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span> 导出原始数据<span class="hljs-tag">&lt;/<span class="hljs-title">Button</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Button</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"primary"</span> <span class="hljs-attribute">size</span>=<span class="hljs-value">"large"</span> @<span class="hljs-attribute">click</span>=<span class="hljs-value">"exportData(2)"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-download-outline"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span> 导出排序和过滤后的数据<span class="hljs-tag">&lt;/<span class="hljs-title">Button</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">Button</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"primary"</span> <span class="hljs-attribute">size</span>=<span class="hljs-value">"large"</span> @<span class="hljs-attribute">click</span>=<span class="hljs-value">"exportData(3)"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-download-outline"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span> 导出自定义数据<span class="hljs-tag">&lt;/<span class="hljs-title">Button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                columns8: [
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"名称"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"name"</span>,
+                        <span class="hljs-string">"fixed"</span>: <span class="hljs-string">"left"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">200</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"展示"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"show"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>,
+                        filters: [
+                            {
+                                label: <span class="hljs-string">'大于4000'</span>,
+                                value: <span class="hljs-number">1</span>
+                            },
+                            {
+                                label: <span class="hljs-string">'小于4000'</span>,
+                                value: <span class="hljs-number">2</span>
+                            }
+                        ],
+                        filterMultiple: <span class="hljs-literal">false</span>,
+                        filterMethod (value, row) {
+                            <span class="hljs-keyword">if</span> (value === <span class="hljs-number">1</span>) {
+                                <span class="hljs-keyword">return</span> row.show &gt; <span class="hljs-number">4000</span>;
+                            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (value === <span class="hljs-number">2</span>) {
+                                <span class="hljs-keyword">return</span> row.show &lt; <span class="hljs-number">4000</span>;
+                            }
+                        }
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"唤醒"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"weak"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"登录"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"signin"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"点击"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"click"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"激活"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"active"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"7日留存"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"day7"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"30日留存"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"day30"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"次日留存"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"tomorrow"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"日活跃"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"day"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"周活跃"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"week"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    },
+                    {
+                        <span class="hljs-string">"title"</span>: <span class="hljs-string">"月活跃"</span>,
+                        <span class="hljs-string">"key"</span>: <span class="hljs-string">"month"</span>,
+                        <span class="hljs-string">"width"</span>: <span class="hljs-number">150</span>,
+                        <span class="hljs-string">"sortable"</span>: <span class="hljs-literal">true</span>
+                    }
+                ],
+                data7: [
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称1"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">7302</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">5627</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">1563</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">4254</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">1438</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">274</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">285</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">1727</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">558</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">4440</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">5610</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称2"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">4720</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">4086</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">3792</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">8690</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">8470</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">8172</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">5197</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">1684</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">2593</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">2507</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">1537</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称3"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">7181</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">8007</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">8477</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">1879</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">16</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">2249</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">3450</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">377</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">1561</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">3219</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">1588</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称4"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">9911</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">8976</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">8807</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">8050</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">7668</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">1547</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">2357</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">7278</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">5309</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">1655</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">9043</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称5"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">934</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">1394</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">6463</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">5278</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">9256</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">209</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">3563</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">8285</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">1230</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">4840</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">9908</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称6"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">6856</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">1608</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">457</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">4949</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">2909</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">4525</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">6171</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">1920</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">1966</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">904</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">6851</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称7"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">5107</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">6407</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">4166</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">7970</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">1002</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">8701</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">9040</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">7632</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">4061</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">4359</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">3676</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称8"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">862</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">6520</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">6696</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">3209</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">6801</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">6364</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">6850</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">9408</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">2481</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">1479</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">2346</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称9"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">567</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">5859</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">128</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">6593</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">1971</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">7596</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">3546</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">6641</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">1611</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">5534</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">3190</span>
+                    },
+                    {
+                        <span class="hljs-string">"name"</span>: <span class="hljs-string">"推广名称10"</span>,
+                        <span class="hljs-string">"fav"</span>: <span class="hljs-number">0</span>,
+                        <span class="hljs-string">"show"</span>: <span class="hljs-number">3651</span>,
+                        <span class="hljs-string">"weak"</span>: <span class="hljs-number">1819</span>,
+                        <span class="hljs-string">"signin"</span>: <span class="hljs-number">4595</span>,
+                        <span class="hljs-string">"click"</span>: <span class="hljs-number">7499</span>,
+                        <span class="hljs-string">"active"</span>: <span class="hljs-number">7405</span>,
+                        <span class="hljs-string">"day7"</span>: <span class="hljs-number">8710</span>,
+                        <span class="hljs-string">"day30"</span>: <span class="hljs-number">5518</span>,
+                        <span class="hljs-string">"tomorrow"</span>: <span class="hljs-number">428</span>,
+                        <span class="hljs-string">"day"</span>: <span class="hljs-number">9768</span>,
+                        <span class="hljs-string">"week"</span>: <span class="hljs-number">2864</span>,
+                        <span class="hljs-string">"month"</span>: <span class="hljs-number">5811</span>
+                    }
+                ]
+            }
+        },
+        methods: {
+            exportData (type) {
+                <span class="hljs-keyword">if</span> (type === <span class="hljs-number">1</span>) {
+                    <span class="hljs-keyword">this</span>.$refs.table.exportCsv({
+                        filename: <span class="hljs-string">'原始数据'</span>
+                    });
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (type === <span class="hljs-number">2</span>) {
+                    <span class="hljs-keyword">this</span>.$refs.table.exportCsv({
+                        filename: <span class="hljs-string">'排序和过滤后的数据'</span>,
+                        original: <span class="hljs-literal">false</span>
+                    });
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (type === <span class="hljs-number">3</span>) {
+                    <span class="hljs-keyword">this</span>.$refs.table.exportCsv({
+                        filename: <span class="hljs-string">'自定义数据'</span>,
+                        columns: <span class="hljs-keyword">this</span>.columns8.filter((col, index) =&gt; index &lt; <span class="hljs-number">4</span>),
+                        data: <span class="hljs-keyword">this</span>.data7.filter((data, index) =&gt; index &lt; <span class="hljs-number">4</span>)
+                    });
+                }
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+        <div style="border:1px solid #ddd; text-align:center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;" @click="showPre($event,7,'dcTable')">
+            <Icon type="chevron-down" size="10" v-if="showPre7"></Icon>
+            <Icon type="chevron-up" size="10" v-else></Icon>
+        </div>
+
     </div>
 </template>
-</template>
 <script>
+    import $ from 'jquery';
     export default {
         data () {
             return {
@@ -599,7 +1257,13 @@
                         "month": 5811
                     }
                 ],
-                showPre1: false
+                showPre1: false,
+                showPre2: false,
+                showPre3: false,
+                showPre4: false,
+                showPre5: false,
+                showPre6: false,
+                showPre7: false
             }
         },
         methods: {
@@ -630,18 +1294,14 @@
             remove (index) {
                 this.data6.splice(index, 1);
             },
-            showPre(event,index){
-                if(index == 1){
-                    if(this.showPre1){
-                        var anchor = this.$el.querySelector('#ptTable');
-                        document.body.scrollTop = anchor.offsetTop;
-
-                        this.$set('showPre1', false);
+            showPre(event,index,id){
+                    if(this['showPre'+index]){
+                        var anchor = this.$el.querySelector('#'+id);
+                        $("body").animate({scrollTop:anchor.offsetTop});
+                        this.$set('showPre'+index, false);
                     }else{
-                        this.$set('showPre1', true);
+                        this.$set('showPre'+index, true);
                     }
-
-                }
             }
         }
     }
