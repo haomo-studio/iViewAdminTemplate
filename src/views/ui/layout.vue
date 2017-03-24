@@ -330,6 +330,161 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
+            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span
+                    class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span
+                    class="css">
+    <span class="hljs-class">.layout</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span
+                class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span
+                class="hljs-hexcolor">#f5f7f9</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-logo</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span
+                class="hljs-number">100px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span
+                class="hljs-number">30px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span
+                class="hljs-hexcolor">#5b6270</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span
+                class="hljs-number">3px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span
+                class="hljs-value"> relative</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">top</span>:<span class="hljs-value"> <span
+                class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">left</span>:<span class="hljs-value"> <span
+                class="hljs-number">20px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-nav</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span
+                class="hljs-number">420px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span
+                class="hljs-number">0</span> auto</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-assistant</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span
+                class="hljs-number">300px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span
+                class="hljs-number">0</span> auto</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span
+                class="hljs-value"> inherit</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-breadcrumb</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span
+                class="hljs-number">10px</span> <span class="hljs-number">15px</span> <span class="hljs-number">0</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">min-height</span>:<span class="hljs-value"> <span
+                class="hljs-number">200px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span
+                class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span
+                class="hljs-value"> hidden</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span
+                class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span
+                class="hljs-number">4px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content-main</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span
+                class="hljs-number">10px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-copy</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">text-align</span>:<span
+                class="hljs-value"> center</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span
+                class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span
+                class="hljs-hexcolor">#9ea7b4</span></span></span>;
+    }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">mode</span>=<span
+            class="hljs-value">"horizontal"</span> <span class="hljs-attribute">theme</span>=<span
+            class="hljs-value">"dark"</span> <span class="hljs-attribute">active-key</span>=<span
+            class="hljs-value">"1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout-logo"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+            class="hljs-title">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout-nav"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span
+            class="hljs-value">"ios-navigate"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+            class="hljs-title">Icon</span>&gt;</span>
+                    导航一
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span
+            class="hljs-value">"ios-keypad"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+            class="hljs-title">Icon</span>&gt;</span>
+                    导航二
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span
+            class="hljs-value">"ios-analytics"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+            class="hljs-title">Icon</span>&gt;</span>
+                    导航三
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"4"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span
+            class="hljs-value">"ios-paper"</span>&gt;</span><span class="hljs-tag">&lt;/<span
+            class="hljs-title">Icon</span>&gt;</span>
+                    导航四
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">mode</span>=<span
+            class="hljs-value">"horizontal"</span> <span class="hljs-attribute">active-key</span>=<span
+            class="hljs-value">"1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout-assistant"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>二级导航<span
+            class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>二级导航<span
+            class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span
+            class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>二级导航<span
+            class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout-breadcrumb"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span> <span class="hljs-attribute">href</span>=<span
+            class="hljs-value">"#"</span>&gt;</span>首页<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span> <span class="hljs-attribute">href</span>=<span
+            class="hljs-value">"#"</span>&gt;</span>应用中心<span class="hljs-tag">&lt;/<span
+            class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span>&gt;</span>某应用<span
+            class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout-content"</span>&gt;</span>
+            内容区域
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span
+            class="hljs-value">"layout-copy"</span>&gt;</span>
+            2011-2016 &amp;copy; TalkingData
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+            </code></pre>
             <header class="codeTitle" v-on="click: toggleShow()">
                 <Icon type="chevron-down" style="font-size: 12px"></Icon>
                 显示代码
@@ -410,6 +565,126 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
+            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+    <span class="hljs-class">.layout</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-logo</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">100px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#5b6270</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">3px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">top</span>:<span class="hljs-value"> <span class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">left</span>:<span class="hljs-value"> <span class="hljs-number">20px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-nav</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">420px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">0</span> auto</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-assistant</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">300px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">0</span> auto</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> inherit</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-breadcrumb</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">15px</span> <span class="hljs-number">0</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">min-height</span>:<span class="hljs-value"> <span class="hljs-number">200px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">4px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content-main</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-copy</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">text-align</span>:<span class="hljs-value"> center</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#9ea7b4</span></span></span>;
+    }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">mode</span>=<span class="hljs-value">"horizontal"</span> <span class="hljs-attribute">theme</span>=<span class="hljs-value">"dark"</span> <span class="hljs-attribute">active-key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-logo"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-nav"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-navigate"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                    导航一
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-keypad"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                    导航二
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-analytics"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                    导航三
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"4"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-paper"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                    导航四
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">mode</span>=<span class="hljs-value">"horizontal"</span> <span class="hljs-attribute">active-key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-assistant"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>二级导航<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>二级导航<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>二级导航<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-content"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Row</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">i-col</span> <span class="hljs-attribute">span</span>=<span class="hljs-value">"5"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">active-key</span>=<span class="hljs-value">"1-2"</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"auto"</span> <span class="hljs-attribute">:open-keys</span>=<span class="hljs-value">"['1']"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Submenu</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"title"</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-navigate"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                                导航一
+                            <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1-1"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1-2"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1-3"</span>&gt;</span>选项 3<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-title">Submenu</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Submenu</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"title"</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-keypad"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                                导航二
+                            <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2-1"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2-2"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-title">Submenu</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Submenu</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"title"</span>&gt;</span>
+                                <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-analytics"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                                导航三
+                            <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3-1"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3-2"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-title">Submenu</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">i-col</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">i-col</span> <span class="hljs-attribute">span</span>=<span class="hljs-value">"19"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-content-main"</span>&gt;</span>内容区域<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">i-col</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">Row</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-copy"</span>&gt;</span>
+            2011-2016 &amp;copy; TalkingData
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+            </code></pre>
             <header class="codeTitle" v-on="click: toggleShow()">
                 <Icon type="chevron-down" style="font-size: 12px"></Icon>
                 显示代码
@@ -470,6 +745,104 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
+            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+    <span class="hljs-class">.layout</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-breadcrumb</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">15px</span> <span class="hljs-number">0</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">min-height</span>:<span class="hljs-value"> <span class="hljs-number">200px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">4px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content-main</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-copy</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">text-align</span>:<span class="hljs-value"> center</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#9ea7b4</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-menu-left</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#464c5b</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-header</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">60px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">1px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">1</span>)</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-logo-left</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">90%</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#5b6270</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">3px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">15px</span> auto</span></span>;
+    }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Row</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"flex"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">i-col</span> <span class="hljs-attribute">span</span>=<span class="hljs-value">"5"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-menu-left"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">active-key</span>=<span class="hljs-value">"1-2"</span> <span class="hljs-attribute">theme</span>=<span class="hljs-value">"dark"</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"auto"</span> <span class="hljs-attribute">:open-keys</span>=<span class="hljs-value">"['1']"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-logo-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Submenu</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"title"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-navigate"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                            导航一
+                        <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1-1"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1-2"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1-3"</span>&gt;</span>选项 3<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Submenu</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Submenu</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"title"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-keypad"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                            导航二
+                        <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2-1"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2-2"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Submenu</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Submenu</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">slot</span>=<span class="hljs-value">"title"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-analytics"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                            导航三
+                        <span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3-1"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3-2"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Submenu</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">i-col</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">i-col</span> <span class="hljs-attribute">span</span>=<span class="hljs-value">"19"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-header"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-breadcrumb"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>首页<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>应用中心<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span>&gt;</span>某应用<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-content"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-content-main"</span>&gt;</span>内容区域<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-copy"</span>&gt;</span>
+                    2011-2016 &amp;copy; TalkingData
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">i-col</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Row</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+            </code></pre>
             <header class="codeTitle" v-on="click: toggleShow()">
                 <Icon type="chevron-down" style="font-size: 12px"></Icon>
                 显示代码
@@ -497,6 +870,72 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
+            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+    <span class="hljs-class">.layout</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">4px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-logo</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">100px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#5b6270</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">3px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">top</span>:<span class="hljs-value"> <span class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">left</span>:<span class="hljs-value"> <span class="hljs-number">20px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-header</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">60px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">1px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">1</span>)</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-copy</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">text-align</span>:<span class="hljs-value"> center</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#9ea7b4</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-ceiling</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#464c5b</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">0</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-ceiling-main</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> right</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin-right</span>:<span class="hljs-value"> <span class="hljs-number">15px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-ceiling-main</span> <span class="hljs-tag">a</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#9ba7b5</span></span></span>;
+    }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-ceiling"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-ceiling-main"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>注册登录<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> |
+                <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>帮助中心<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> |
+                <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>安全中心<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span> |
+                <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>服务大厅<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-header"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-logo"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"height: 200px"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-copy"</span>&gt;</span>
+            2011-2016 &amp;copy; TalkingData
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+            </code></pre>
             <header class="codeTitle" v-on="click: toggleShow()">
                 <Icon type="chevron-down" style="font-size: 12px"></Icon>
                 显示代码
@@ -548,6 +987,127 @@
         <div class="division"></div>
         <!--显示代码的区域-->
         <div>
+            <pre _v-53d23a6d=""><code _v-53d23a6d="" class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">scoped</span>&gt;</span><span class="css">
+    <span class="hljs-class">.layout</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#d7dde4</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f5f7f9</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">4px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-breadcrumb</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">15px</span> <span class="hljs-number">0</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">min-height</span>:<span class="hljs-value"> <span class="hljs-number">200px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">15px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">4px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-content-main</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-copy</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">text-align</span>:<span class="hljs-value"> center</span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#9ea7b4</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-menu-left</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#464c5b</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-header</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">60px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">1px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,.<span class="hljs-number">1</span>)</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-logo-left</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">90%</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#5b6270</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">3px</span></span></span>;
+        <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">15px</span> auto</span></span>;
+    }</span>
+    <span class="hljs-class">.layout-ceiling-main</span> <span class="hljs-tag">a</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#9ba7b5</span></span></span>;
+    }</span>
+    <span class="hljs-class">.layout-hide-text</span> <span class="hljs-class">.layout-text</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">display</span>:<span class="hljs-value"> none</span></span>;
+    }</span>
+    <span class="hljs-class">.ivu-col</span><span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">transition</span>:<span class="hljs-value"> width .<span class="hljs-number">2s</span> ease-in-out</span></span>;
+    }</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout"</span> <span class="hljs-attribute">:class</span>=<span class="hljs-value">"{'layout-hide-text': spanLeft &lt; 5}"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Row</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"flex"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">i-col</span> <span class="hljs-attribute">:span</span>=<span class="hljs-value">"spanLeft"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-menu-left"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">Menu</span> <span class="hljs-attribute">active-key</span>=<span class="hljs-value">"1"</span> <span class="hljs-attribute">theme</span>=<span class="hljs-value">"dark"</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"auto"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-logo-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"1"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-navigate"</span> <span class="hljs-attribute">:size</span>=<span class="hljs-value">"iconSize"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-text"</span>&gt;</span>选项 1<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"2"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-keypad"</span> <span class="hljs-attribute">:size</span>=<span class="hljs-value">"iconSize"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-text"</span>&gt;</span>选项 2<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Menu-item</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">"3"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"ios-analytics"</span> <span class="hljs-attribute">:size</span>=<span class="hljs-value">"iconSize"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-text"</span>&gt;</span>选项 3<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Menu-item</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">Menu</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">i-col</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">i-col</span> <span class="hljs-attribute">:span</span>=<span class="hljs-value">"spanRight"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-header"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">i-button</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span> @<span class="hljs-attribute">click</span>=<span class="hljs-value">"toggleClick"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Icon</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"navicon"</span> <span class="hljs-attribute">size</span>=<span class="hljs-value">"32"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Icon</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">i-button</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-breadcrumb"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>首页<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>&gt;</span>应用中心<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-title">Breadcrumb-item</span>&gt;</span>某应用<span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb-item</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-title">Breadcrumb</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-content"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-content-main"</span>&gt;</span>内容区域<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"layout-copy"</span>&gt;</span>
+                    2011-2016 &amp;copy; TalkingData
+                <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">i-col</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Row</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+        data () {
+            <span class="hljs-keyword">return</span> {
+                spanLeft: <span class="hljs-number">5</span>,
+                spanRight: <span class="hljs-number">19</span>
+            }
+        },
+        computed: {
+            iconSize () {
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.spanLeft === <span class="hljs-number">5</span> ? <span class="hljs-number">14</span> : <span class="hljs-number">24</span>;
+            }
+        },
+        methods: {
+            toggleClick () {
+                <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.spanLeft === <span class="hljs-number">5</span>) {
+                    <span class="hljs-keyword">this</span>.spanLeft = <span class="hljs-number">2</span>;
+                    <span class="hljs-keyword">this</span>.spanRight = <span class="hljs-number">22</span>;
+                } <span class="hljs-keyword">else</span> {
+                    <span class="hljs-keyword">this</span>.spanLeft = <span class="hljs-number">5</span>;
+                    <span class="hljs-keyword">this</span>.spanRight = <span class="hljs-number">19</span>;
+                }
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+            </code></pre>
             <header class="codeTitle" v-on="click: toggleShow()">
                 <Icon type="chevron-down" style="font-size: 12px"></Icon>
                 显示代码
@@ -560,19 +1120,24 @@
 
 <script>
     export default {
-        data () {
+        data ()
+    {
         return {
             spanLeft: 5,
             spanRight: 19
         }
-    },
+    }
+    ,
     computed: {
-        iconSize () {
+        iconSize()
+        {
             return this.spanLeft === 5 ? 14 : 24;
         }
-    },
+    }
+    ,
     methods: {
-        toggleClick () {
+        toggleClick()
+        {
             if (this.spanLeft === 5) {
                 this.spanLeft = 2;
                 this.spanRight = 22;
