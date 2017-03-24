@@ -149,7 +149,7 @@
         margin:0 auto;
     }
     .outSide{
-        background: url('../../img/login-bg.jpg') no-repeat 0 0;
+        background: url('login-bg.jpg') no-repeat 0 0;
         background-size: cover;
         padding: 35px 0;
         height:600px;

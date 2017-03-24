@@ -57,10 +57,11 @@
     <!--</Row>-->
 </template>
 <script>
+    import person from './img/back-img.jpg'
     export default {
       data(){
           return {
-              person:'img/back-img.jpg'
+              person:person
           }
 
       }
