@@ -11,7 +11,7 @@ module.exports = {
     // 输出
     output: {
         path: path.join(__dirname, './dist'),
-        publicPath: ""
+        publicPath: "/"
     },
     // 加载器
     module: {
@@ -35,11 +35,11 @@ module.exports = {
 
             {
                 test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/,
-                loader: 'url-loader?limit=8192'
+                loader: 'url-loader?limit=8192?limit=8192&name=page/[hash:8].[name].[ext]'
             },
             {
                 test: /\.(html|tpl)$/,
-                loader: 'html-loader'
+                loader: 'html-loader!html-withimg-loader'
             }
         ]
     },
