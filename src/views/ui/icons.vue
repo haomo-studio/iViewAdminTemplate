@@ -2929,12 +2929,6 @@
             <Icon type="social-euro-outline"></Icon>
             <p>social-euro-outline</p>
         </div>
-
-
-
-
-
-
     </div>
 </template>
 <script>
@@ -2962,7 +2956,7 @@
         margin-top: 1em;
         height: 2em;
     }
-    .ivu-icon {
-        font-size:14px;
+    .icons-item .ivu-icon {
+        font-size:32px;
     }
 </style>
