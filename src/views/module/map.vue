@@ -1,5 +1,5 @@
 <template>
-    地图
+    <div><span>maps</span></div>
 </template>
 <script>
     export default {
