@@ -40,9 +40,10 @@
       <div class="template_box">
          <h2>Template 4</h2>
          <Card style="width:450px;height:240px;background:url(https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1490513426&di=13f9238b8b086384f1ecaf942675a799&src=http://img10.cache.hxsd.com/hxsdmy/work/image/2015/02/01/15/10/04/04/1428143295.jpg)">
-            <div style="background-color:#000;margin-left:-16px;width:450px;">
+            <div style="background-color:#000;margin-left:-16px;width:450px;margin-top:123px;">
                <div  style="margin-top: 100px;"><span style="font-family:Main Head;font-weight:bold;color:#464c5b;font-size:25px;">Nature</span></div>
-               <div style="margin-top:20px;"><span>Look deep into nature, then you will understand everything better. Look deep into nature, then you will understand everything better.</span></div></div>
+               <div style="margin-top:20px;"><span>Look deep into nature, then you will understand everything better. Look deep into nature, then you will understand everything better.</span></div>
+            </div>
          </Card>
       </div>
       <div class="template_box">
