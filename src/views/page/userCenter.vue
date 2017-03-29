@@ -9,10 +9,16 @@
                            <i-input type="textarea" :rows="6" placeholder="请输入..."></i-input>
                        </p>
                        <p style="margin-top:10px;">
-                           <Icon type="image" style="font-size:1.5em;margin:0 2%;"></Icon>
-                           <Icon type="android-person-add" style="font-size: 1.5em;margin:0 2%;"></Icon>
-                           <Icon type="ios-location" style="font-size: 1.5em;margin:0 2%"></Icon>
-                           <i-button type="primary" style="margin-left:64%">发 送</i-button>
+                           <Tooltip content="插入照片" style="margin:0 2%;">
+                               <Icon type="image" style="font-size:1.5em;"></Icon>
+                           </Tooltip>
+                           <Tooltip content="添加联系人" style="margin:0 2%;">
+                               <Icon type="android-person-add" style="font-size: 1.5em;"></Icon>
+                           </Tooltip>
+                           <Tooltip content="添加地址" style="margin:0 2%;">
+                               <Icon type="ios-location" style="font-size: 1.5em;"></Icon>
+                           </Tooltip>
+                               <i-button type="primary" style="margin-left:64%">发 送</i-button>
                        </p>
                    </Card>
                </div>
@@ -187,16 +193,16 @@
            <div  class="body-right" style="padding:25px 0;">
                <Card>
                    <p style="background-color:#3399ff;color:#fff;line-height: 40px;">
-                        <span style="font-size: 15px;margin-left:2%;">最 新 活 动</span>
-                       <span style="font-size: 10px;margin-left:170px;">See All</span>
+                        <span style="font-size: 18px;margin-left:2%;">最 新 活 动</span>
+                       <span style="font-size: 10px;margin-left:50%;">See All</span>
                    </p>
                    <ul >
-                       <li v-for="item in personList">
+                       <li v-for="item in personList" style="margin:20px 0;">
                            <p style="margin:10px 0;">
-                           <div class="person-alice"></div>
+                           <div class="person-andrew"></div>
                            <div class="time">
-                               <span style="color:#000;font-size: 12px;"> {{item.title}}</span><br>
-                               <span style="color:#bbb;font-size: 12px;">{{item.time}}</span>
+                               <span style="color:#000;font-size:12px;"> {{item.title}}</span><br>
+                               <span style="color:#bbb;font-size:12px;">{{item.time}}</span>
                            </div>
                            </p>
                        </li>
@@ -204,23 +210,169 @@
                </Card>
            </div>
         </Tab-pane>
-        <Tab-pane label="标签二" key="key2">标签二的内容</Tab-pane>
-        <Tab-pane label="标签三" key="key3">标签三的内容</Tab-pane>
+        <Tab-pane label="标签二" key="key2">
+            <div class="body-left">
+                <Card style="background-color: lightblue;margin: 20px 0;">
+                    <p slot="title" style="font-size: 20px;">General Information</p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Gender</span> <br>
+                        <span style="color: #999;font-size: 10px;">Female</span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Locations</span> <br>
+                        <span style="color: #999;font-size: 10px;">Istanbul, Turkey
+                            <Icon type="ios-location-outline"></Icon>
+                            New York, USA
+                            <Icon type="ios-location-outline"></Icon>
+                        </span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">About Me</span> <br>
+                        <span style="color: #999;font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aperiam, commodi, itaque? Architecto atque deleniti, dicta dolorum ducimus, eaque facere ipsa
+                            libero modi molestiae mollitia nemo quidem reiciendis, tenetur velit voluptatem!</span>
+                    </p>
+                </Card>
+                <Card style="background-color: blanchedalmond;margin: 20px 0;">
+                    <p slot="title" style="font-size: 20px;">Work</p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Occupation</span> <br>
+                        <span style="color: #999;font-size: 10px;">Developer</span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Skills</span> <br>
+                        <span style="color: #999;font-size: 10px;">C#, PHP, Javascript, Angular, JS, HTML, CSS
+                        </span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Jobs</span> <br>
+                        <span style="color: #999;font-size: 10px;">Self-Employed <br>Google</span>
+                    </p>
+                </Card>
+                <Card style="background-color: greenyellow;margin: 20px 0;">
+                    <p slot="title" style="font-size: 20px;">Contact</p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Address</span> <br>
+                        <span style="color: #999;font-size: 10px;">Ut pharetra luctus est quis sodales. Duis nisi tortor,
+                            bibendum eget tincidunt, aliquam ac elit. Mauris nec euismod odio.</span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Tel.</span> <br>
+                        <span style="color: #999;font-size: 10px;">+6 555 6600 <br>555 5255
+                        </span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Website</span> <br>
+                        <span style="color: #999;font-size: 10px;">withinpixels.com</span>
+                    </p>
+                    <p style="margin:15px;"><span style="color: #000;font-size: 14px;">Emails</span> <br>
+                        <span style="color: #999;font-size: 10px;">mail@withinpixels.com <br>mail@creapond.com</span>
+                    </p>
+                </Card>
+            </div>
+            <div class="body-right">
+                <div style="background:#eee;padding:20px">
+                    <Card>
+                        <div>
+                            <div style="width:100%;color: #fff;background-color:#3399ff;margin:10px 0;">
+                                <span style="font-size: 20px;"> Friend</span>
+                                <span style="font-size: 10px;margin-left: 50%;">See 454 more</span>
+                            </div>
+                            <div style="overflow: hidden">
+                                <div class="person-garry" style="margin:5px;"></div>
+                                <div class="person-andrew" style="margin:5px;"></div>
+                                <div class="person-alice" style="margin:5px;"></div>
+                                <div class="person-jane" style="margin:5px;"></div>
+                                <div class="person-andrew" style="margin:5px;"></div>
+                                <div class="person-garry" style="margin:5px;"></div>
+                                <div class="person-andrew" style="margin:5px;"></div>
+                                <div class="person-garry" style="margin:5px;"></div>
+                            </div>
+                        </div>
+                        <!--<p slot="title">Friends</p>-->
+                        <!--<p class="person-andrew"></p>-->
+                        <!--<p class="person-alice"></p>-->
+                        <!--<p class="person-garry"></p>-->
+                        <!--<p class="person-jane"></p>-->
+                        <!--<p class="person-garry"></p>-->
+                    </Card>
+                </div>
+            </div>
+        </Tab-pane>
+        <Tab-pane label="标签三" key="key3">
+            <p style="margin: 20px 0;">
+                <span style="font-size: 20px;color: #000">June 2015</span>
+                <span style="font-size: 12px;color: #aaa;margin-left: 10px;">5 Photos</span>
+            </p>
+            <div>
+                <div  style="float:left;margin:10px;">
+                  <Card style="width:300px;">
+                    <div style="text-align:center">
+                        <img :src="roadtrip" alt="" >
+                    </div>
+                  </Card>
+                </div>
+                <div  style="float:left;margin:10px;">
+                  <Card style="width:300px">
+                    <div style="text-align:center">
+                        <img :src="mountainlake" alt="">
+                    </div>
+                  </Card>
+                </div>
+                <div  style="float:left;margin:10px;">
+                    <Card style="width:300px">
+                        <div style="text-align:center">
+                            <img :src="mountainsunset" alt="">
+                        </div>
+                    </Card>
+                </div>
+                <div  style="float:left;margin:7px;">
+                    <Card style="width:300px">
+                        <div style="text-align:center">
+                            <img :src="airballoons" alt="">
+                        </div>
+                    </Card>
+                </div>
+            </div>
+        </Tab-pane>
     </Tabs>
     </div>
 </template>
 <script>
     import earlySunrise from './img/early-sunrise.jpg';
     import fallout from './img/fallout.jpg';
+    import roadtrip from './img/road-trip.jpg';
+    import mountainlake from './img/mountain-lake.jpg';
+    import mountainsunset from './img/mountain-sunset.jpg';
+    import airballoons from './img/air-balloons.jpg';
     export default {
         data(){
             return {
                 earlySunrise:earlySunrise,
                 fallout:fallout,
+                roadtrip:roadtrip,
+                mountainlake:mountainlake,
+                mountainsunset:mountainsunset,
+                airballoons:airballoons,
                 personList: [
                     {
                         title: 'Alice Freeman started following you.',
                         time: '13 mins. ago'
+                    },
+                    {
+                        title: 'Andrew Green sent you a message.',
+                        time: 'June 10,2015'
+                    },
+                    {
+                        title: 'Andrew Green sent you a message.',
+                        time: 'June 10,2015'
+                    },
+                    {
+                        title: 'Andrew Green sent you a message.',
+                        time: 'June 10,2015'
+                    },
+                    {
+                        title: 'Andrew Green sent you a message.',
+                        time: 'June 10,2015'
+                    },
+                    {
+                        title: 'Andrew Green sent you a message.',
+                        time: 'June 10,2015'
+                    },
+                    {
+                        title: 'Andrew Green sent you a message.',
+                        time: 'June 10,2015'
                     },
                     {
                         title: 'Andrew Green sent you a message.',
