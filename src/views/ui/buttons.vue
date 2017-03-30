@@ -1,6 +1,7 @@
     <template>
                <h1>Button 按钮</h1>
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                <i-button>Default</i-button>
                <i-button type="primary">Primary</i-button>
@@ -32,8 +33,10 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
         <div class="example-button">
+            <Card>
             <i-button type="primary" shape="circle" icon="ios-search"></i-button>
             <i-button type="primary" icon="ios-search">搜索</i-button>
             <i-button type="primary" shape="circle" icon="ios-search">搜索</i-button>
@@ -65,8 +68,10 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                 <i-button type="primary" size="large">Large</i-button>
                 <i-button type="primary">Default</i-button>
@@ -96,8 +101,10 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                 <i-button type="success" long>确认提交</i-button>
                 <br><br>
@@ -119,8 +126,10 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                 <i-button>Default</i-button>
                 <i-button disabled>Default(Disabled)</i-button>
@@ -164,8 +173,10 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                 <i-button type="primary" loading>Loading...</i-button>
                 <i-button type="primary" :loading="loading" @click="toLoading">
@@ -212,8 +223,10 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                 <h4>基本</h4>
                 <br><br>
@@ -411,9 +424,11 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
 
         <div class="example-button">
+            <Card>
             <div class="button-icon">
                 <Button-group vertical>
                     <i-button type="ghost" icon="social-facebook"></i-button>
@@ -441,6 +456,7 @@
             <div class="code-more">
                 <i class="ivu-icon ivu-icon-ios-arrow-down"></i>
             </div>
+            </Card>
         </div>
     </template>
     <script>
