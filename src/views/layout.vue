@@ -49,7 +49,7 @@
             <i-col span="5" class="layout-menu-left">
                 <Menu active-key="1-2" theme="dark" width="auto" :open-keys="['1']">
                     <div class="layout-logo-left">
-                        <h2>北京毫末科技有限11司123</h2>
+                        <h2>北京毫末科技有限司</h2>
                     </div>
                     <Submenu key="1">
                         <template slot="title">
